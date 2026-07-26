@@ -1,0 +1,12 @@
+# Systemdateien
+.DS_Store
+
+# Lokale Entwicklungs-/Hilfsdateien (nicht für die Website nötig)
+.claude/
+
+# Große Original-/Rohdaten – die Website nutzt die fertig aufbereiteten Versionen
+assets/images/Fotos Kraftraum und Halle/
+assets/images/Sponsoren/
+assets/images/IMG_5999.jpeg
+assets/images/2023-06-02-ötb-drösing-logo.eps
+assets/images/Heimspiele neue Sponsor.png

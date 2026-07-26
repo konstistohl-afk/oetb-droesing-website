@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anmeldung – ÖTB Turnverein Drösing</title>
+  <meta name="description" content="Online zum ÖTB Turnverein Drösing anmelden – Turnen und Faustball für alle Generationen.">
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-variant="subpage" data-page="anmeldung">
+
+  <div data-render="header"></div>
+
+  <main>
+    <header class="page-header">
+      <div class="container">
+        <span class="eyebrow">Mitglied werden</span>
+        <h1>Anmeldung</h1>
+        <p>Fülle das Formular aus – wir melden uns anschließend bei dir. Willkommen im Verein!</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <form class="card reveal js-form" data-subject="Neue Vereinsanmeldung"
+              style="max-width:800px;margin:0 auto">
+
+          <h3>Angemeldete Person</h3>
+          <div class="form-row">
+            <div class="form-field"><label for="an-vorname">Vorname *</label>
+              <input id="an-vorname" name="vorname" required></div>
+            <div class="form-field"><label for="an-nachname">Nachname *</label>
+              <input id="an-nachname" name="nachname" required></div>
+          </div>
+          <div class="form-field"><label for="an-geburt">Geburtsdatum</label>
+            <input id="an-geburt" name="geburtsdatum" type="date"></div>
+
+          <h3 style="margin-top:1.6rem">Kontakt &amp; Adresse</h3>
+          <div class="form-field"><label for="an-strasse">Straße &amp; Hausnummer</label>
+            <input id="an-strasse" name="strasse"></div>
+          <div class="form-row">
+            <div class="form-field"><label for="an-plz">PLZ</label>
+              <input id="an-plz" name="plz"></div>
+            <div class="form-field"><label for="an-ort">Ort</label>
+              <input id="an-ort" name="ort"></div>
+          </div>
+          <div class="form-row">
+            <div class="form-field"><label for="an-mail">E-Mail *</label>
+              <input id="an-mail" name="email" type="email" required></div>
+            <div class="form-field"><label for="an-tel">Telefon</label>
+              <input id="an-tel" name="telefon" type="tel"></div>
+          </div>
+
+          <h3 style="margin-top:1.6rem">Mitgliedschaft</h3>
+          <div class="form-row">
+            <div class="form-field"><label for="an-angebot">Gewünschtes Angebot</label>
+              <select id="an-angebot" name="angebot" data-render="angebotOptions"></select></div>
+            <div class="form-field"><label for="an-art">Art der Mitgliedschaft</label>
+              <select id="an-art" name="mitgliedschaft">
+                <option value="">Bitte wählen …</option>
+                <option>Kind</option>
+                <option>Erwachsene</option>
+                <option>Familie</option>
+                <option>Förderndes Mitglied</option>
+                <option>Aktiv ohne Mitgliedschaft</option>
+              </select></div>
+          </div>
+          <div class="form-field"><label for="an-erz">Erziehungsberechtigte:r (bei Minderjährigen)</label>
+            <input id="an-erz" name="erziehungsberechtigt"></div>
+          <div class="form-field"><label for="an-anmerkung">Anmerkungen</label>
+            <textarea id="an-anmerkung" name="anmerkung" rows="4"></textarea></div>
+
+          <label class="form-check">
+            <input id="an-dsgvo" name="datenschutz" type="checkbox" required>
+            <span>Ich stimme zu, dass meine Daten zur Bearbeitung der Anmeldung
+              gespeichert und ausschließlich für Vereinszwecke verwendet werden. *</span>
+          </label>
+
+          <button class="btn btn-primary" type="submit" style="margin-top:1.2rem">
+            Anmeldung absenden <span aria-hidden="true">→</span></button>
+          <p class="form-note">Mit dem Absenden schickst Du Deine Anmeldung direkt an den
+            Verein. Wir melden uns anschließend bei Dir.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div data-render="footer"></div>
+  <script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+{
+  "verein": {
+    "name": "ÖTB Turnverein Drösing",
+    "kurzname": "ÖTB-TV Drösing",
+    "ort": "2265 Drösing",
+    "email": "oetb-droesing@gmail.com",
+    "formKey": "",
+    "formName": "ÖTB Drösing Website",
+    "slogan": "Bewegung, die verbindet",
+    "unterzeile": "Turnen & Faustball für alle Generationen – mitten im Weinviertel.",
+    "intro": "Ob Krabbelgruppe, Kinderturnen, Damenturnen oder Faustball auf Bundesliga-Niveau: Bei uns findet jede Altersgruppe das passende Bewegungsangebot in einer familiären Gemeinschaft.",
+    "verbaende": [
+      "Österreichischer Turnerbund (ÖTB)",
+      "NÖ Faustballverband",
+      "ASVÖ"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/Faustballteam/?locale=de_DE",
+      "instagram": "https://www.instagram.com/oetb_droesing/"
+    }
+  },
+  "ueberUns": {
+    "text": "Der ÖTB Turnverein Drösing ist ein gemeinnütziger Sportverein mit einer langen Tradition. Von der Krabbelgruppe bis zum Seniorenteam bieten wir Bewegung, Gemeinschaft und Wettkampfsport – mit engagierten ehrenamtlichen Übungsleiterinnen, Übungsleitern und Trainern.",
+    "leitung": [
+      {
+        "name": "Thomas Kvasnicka",
+        "rolle": "Obmann",
+        "bild": ""
+      },
+      {
+        "name": "Karl Gahm",
+        "rolle": "Zeugwart & Obmann-Stellvertreter",
+        "bild": ""
+      },
+      {
+        "name": "Erich Turetschek",
+        "rolle": "2. Obmann-Stellvertreter",
+        "bild": ""
+      },
+      {
+        "name": "Andreas Huysza",
+        "rolle": "Leitung Faustball",
+        "bild": ""
+      }
+    ],
+    "trainer": [
+      "Andreas Huysza",
+      "Martin Stohl",
+      "Thomas Kvasnicka",
+      "Yara van Sint Maartensdijk",
+      "Fabian Stohl"
+    ],
+    "vorturner": [
+      "Verena Turetschek-Hies",
+      "Katrin Bek",
+      "Erich Turetschek",
+      "Verena Friedrich",
+      "Stefan Koller",
+      "Christa Schweinhammer",
+      "Brigitte Kaltenbrunner"
+    ],
+    "anlagen": [
+      {
+        "name": "Jahnturnhalle",
+        "bild": "assets/images/anlagen/turnhalle.jpg",
+        "text": "Unsere Turnhalle mit großzügigen Übungsflächen, Umkleiden, Vereinsraum und Geräteraum."
+      },
+      {
+        "name": "Faustballanlage",
+        "bild": "",
+        "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden."
+      },
+      {
+        "name": "Kraftkammer",
+        "bild": "assets/images/anlagen/kraftraum.jpg",
+        "text": "Neben einer Auswahl an Cardiogeräten gibt es einen Freihantelbereich sowie einen Kraftturm."
+      }
+    ]
+  },
+  "angebote": [
+    {
+      "titel": "Krabbelgruppe",
+      "icon": "krabbel",
+      "zielgruppe": "Babys & Kleinkinder bis 2,5 Jahre (mit Begleitung)",
+      "tag": "Dienstag",
+      "zeit": "15:00–16:00",
+      "leitung": "Sabrina Pachofszky",
+      "text": "Gemeinsam bauen wir verschiedene Elemente auf, die Babys und Kleinkinder bei der Entwicklung ihrer motorischen Fähigkeiten unterstützen."
+    },
+    {
+      "titel": "Eltern-Kind-Turnen",
+      "icon": "elternkind",
+      "zielgruppe": "Kinder 2,5–6 Jahre (mit Begleitung)",
+      "tag": "Mittwoch",
+      "zeit": "16:00–17:00",
+      "leitung": "Verena & Daniela",
+      "text": "Spielerische Grundlagen: sicheres Bewegen, Laufen, Hüpfen, Rollen, Klettern und viele Gruppenspiele."
+    },
+    {
+      "titel": "Kinderturnen",
+      "icon": "kinder",
+      "zielgruppe": "Kinder ab 6 Jahren",
+      "tag": "Dienstag",
+      "zeit": "16:45–18:15",
+      "leitung": "Verena Friedrich (Stv. Erich Turetschek)",
+      "text": "Einführung in die klassischen Turndisziplinen und grundlegende Gerätefertigkeiten."
+    },
+    {
+      "titel": "Geräteturnen Kinder",
+      "icon": "geraete",
+      "zielgruppe": "Kinder ab 10 Jahren",
+      "tag": "Donnerstag",
+      "zeit": "17:00–18:30",
+      "leitung": "Stefan Koller",
+      "text": "Fortgeschrittenes Gerätturnen: Boden, Barren, Reck, Sprung und Ringe."
+    },
+    {
+      "titel": "Damenturnen",
+      "icon": "damen",
+      "zielgruppe": "Frauen jeden Alters",
+      "tag": "Dienstag",
+      "zeit": "19:45–21:15",
+      "leitung": "Eveline Huysza & Christa Schweinhammer",
+      "text": "Ein vielseitiges Bewegungsangebot mit Laufen, Spielen, Gymnastik, Konditionstraining, Tanz, Yoga und Pilates."
+    },
+    {
+      "titel": "Step Aerobic",
+      "icon": "step",
+      "zielgruppe": "Alle Altersgruppen",
+      "tag": "Dienstag",
+      "zeit": "18:30–19:30",
+      "leitung": "Christa Schweinhammer",
+      "text": "Herz-Kreislauf-Training mit Fokus auf Bein- und Gesäßmuskulatur – rhythmische Bewegung zur Musik."
+    },
+    {
+      "titel": "Line Dance",
+      "icon": "dance",
+      "zielgruppe": "Alle Altersgruppen",
+      "tag": "",
+      "zeit": "17:30–18:30",
+      "leitung": "Brigitte Kaltenbrunner",
+      "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
+    },
+    {
+      "titel": "Faustball",
+      "icon": "faustball",
+      "zielgruppe": "Volksschulalter bis Senioren",
+      "tag": "",
+      "zeit": "nach Trainingsplan",
+      "leitung": "Andreas Huysza",
+      "text": "Mehrere Altersgruppen von U10 bis zu Damen, Herren und Senioren – Freizeit- und Wettkampfsport. Details im Bereich Faustball."
+    }
+  ],
+  "mitgliedschaft": {
+    "beitraege": [
+      {
+        "typ": "Kind",
+        "preis": "30 € / Jahr"
+      },
+      {
+        "typ": "Erwachsene",
+        "preis": "55 € / Jahr"
+      },
+      {
+        "typ": "Fördernde Mitglieder",
+        "preis": "30 € / Jahr"
+      },
+      {
+        "typ": "Familie (Maximum)",
+        "preis": "120 € / Jahr"
+      },
+      {
+        "typ": "Aktiv ohne Mitgliedschaft",
+        "preis": "65 € / Jahr"
+      }
+    ],
+    "fitnessraum": [
+      {
+        "typ": "Einzeleinheit",
+        "preis": "3 €"
+      },
+      {
+        "typ": "Monatspauschale",
+        "preis": "30 €"
+      }
+    ],
+    "hinweise": [
+      "Der Mitgliedsbeitrag gilt für ein Kalenderjahr (Jänner bis Dezember).",
+      "Die Beiträge sind bis Ende Februar zu begleichen, um alle Angebote nutzen zu können.",
+      "Ausgenommen von den Mitgliedsbeiträgen sind Angebote in Kursform sowie die Nutzung des Fitnessraums."
+    ],
+    "bank": {
+      "institut": "RAIKA Neusiedl/Zaya",
+      "iban": "AT78 3255 1000 0017 2270",
+      "verwendung": "Mitgliedsbeitrag [Jahr], [NAME]"
+    },
+    "anmeldungUrl": "anmeldung.html"
+  },
+  "faustball": {
+    "intro": "Faustball ist eine schnelle Rückschlag-Sportart, die im Freien und in der Halle gespielt wird. Unser Verein stellt Mannschaften in nahezu allen Alters- und Leistungsklassen – von den Jüngsten bis zur 1. Bundesliga der Herren.",
+    "betreuer": [
+      {
+        "name": "Andreas Huysza",
+        "rolle": "Leitung Faustball & Trainer",
+        "bild": ""
+      },
+      {
+        "name": "Martin Stohl",
+        "rolle": "Trainer",
+        "bild": ""
+      },
+      {
+        "name": "Thomas Kvasnicka",
+        "rolle": "Trainer & Obmann",
+        "bild": ""
+      },
+      {
+        "name": "Yara van Sint Maartensdijk",
+        "rolle": "Nachwuchstrainerin",
+        "bild": ""
+      },
+      {
+        "name": "Fabian Stohl",
+        "rolle": "Nachwuchstrainer",
+        "bild": ""
+      }
+    ],
+    "sponsoren": [
+      {
+        "name": "Windpartner",
+        "logo": "assets/images/sponsorlogos/windpartner.jpg"
+      },
+      {
+        "name": "BSM Brandschutz Malcsik GmbH",
+        "logo": "assets/images/sponsorlogos/bsm.png"
+      },
+      {
+        "name": "Sportland Niederösterreich",
+        "logo": "assets/images/sponsorlogos/sportland.svg"
+      },
+      {
+        "name": "EVN",
+        "logo": "assets/images/sponsorlogos/evn.jpg"
+      },
+      {
+        "name": "KFZ Jakum",
+        "logo": "assets/images/sponsorlogos/kfz-jakum.jpg"
+      },
+      {
+        "name": "Tischlerei Noll",
+        "logo": "assets/images/sponsorlogos/noll.png"
+      },
+      {
+        "name": "Hörakustik Rakosch",
+        "logo": "assets/images/sponsorlogos/rakosch.png"
+      },
+      {
+        "name": "Femaroll Sonnenschutzanlagen",
+        "logo": "assets/images/sponsorlogos/femaroll.jpg"
+      },
+      {
+        "name": "Möbel Weiser",
+        "logo": "assets/images/sponsorlogos/moebel-weiser.jpg"
+      },
+      {
+        "name": "Baumeister Weiser Drösing",
+        "logo": "assets/images/sponsorlogos/baumeister-weiser.png"
+      },
+      {
+        "name": "Haustechnik Forschner",
+        "logo": "assets/images/sponsorlogos/forschner.png"
+      },
+      {
+        "name": "Raiffeisen – Meine Bank in Drösing",
+        "logo": "assets/images/sponsorlogos/raiffeisen.jpg"
+      },
+      {
+        "name": "GB Geotechnik Bauingenieure",
+        "logo": "assets/images/sponsorlogos/gb-geotechnik.jpg"
+      },
+      {
+        "name": "Sport Böhm",
+        "logo": "assets/images/sponsorlogos/sport-boehm.jpg"
+      },
+      {
+        "name": "Müllnerdach",
+        "logo": "assets/images/sponsorlogos/muellnerdach.jpg"
+      },
+      {
+        "name": "Bloch³",
+        "logo": "assets/images/sponsorlogos/bloch3.jpg"
+      },
+      {
+        "name": "Meierhof – Heuriger Gass",
+        "logo": "assets/images/sponsorlogos/meierhof.jpg"
+      },
+      {
+        "name": "Pittel + Brausewetter",
+        "logo": "assets/images/sponsorlogos/pittel-brausewetter.png"
+      },
+      {
+        "name": "Niederösterreichische Versicherung",
+        "logo": "assets/images/sponsorlogos/noe-versicherung.jpg"
+      },
+      {
+        "name": "Planenbau",
+        "logo": "assets/images/sponsorlogos/planenbau.png"
+      }
+    ]
+  },
+  "kontakt": {
+    "email": "oetb-droesing@gmail.com",
+    "ort": "2265 Drösing, Österreich",
+    "text": "Fragen zu unseren Angeboten, zur Mitgliedschaft oder zum Faustball? Schreib uns – wir melden uns gerne zurück.",
+    "hinweis": "Mit dem Absenden schickst Du uns Deine Nachricht direkt zu. Wir antworten so bald wie möglich."
+  },
+  "impressum": {
+    "name": "ÖTB-TV Drösing",
+    "adresse": "2265 Drösing, Österreich",
+    "zvr": "078185050",
+    "email": "oetb-droesing@gmail.com",
+    "website": "www.oetbdroesing.com",
+    "vertretung": "Thomas Kvasnicka (vertretungsberechtigter Obmann)",
+    "verantwortlich": "Verena Hahn (inhaltlich verantwortlich, § 25 MedienG)",
+    "vereinszweck": "Pflege und Förderung des Turnsports, des Faustballsports und der körperlichen Ertüchtigung.",
+    "behoerde": "Bezirkshauptmannschaft Gänserndorf (Vereinsbehörde)",
+    "rechtstext": "Haftung für Inhalte externer Links wird nicht übernommen – für deren Inhalte sind ausschließlich deren Betreiber verantwortlich. Eigene Inhalte werden mit größter Sorgfalt erstellt; für Richtigkeit, Vollständigkeit und Aktualität kann dennoch keine Gewähr übernommen werden. Alle Inhalte dieser Website sind urheberrechtlich geschützt. Informationen zum Umgang mit personenbezogenen Daten findest du in unserer Datenschutzerklärung."
+  },
+  "datenschutz": {
+    "stand": "Juli 2026",
+    "verantwortlich": "ÖTB-TV Drösing, 2265 Drösing, E-Mail: oetb-droesing@gmail.com",
+    "weitergabe": "Im Rahmen der Mitgliedschaft und des Wettkampfbetriebs werden die dafür notwendigen Daten an die zuständigen Dachverbände (ÖTB, NÖ Faustballverband, ASVÖ) übermittelt. Eine darüber hinausgehende Weitergabe an Dritte erfolgt nicht."
+  }
+}

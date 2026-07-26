@@ -1,0 +1,159 @@
+# Konfiguration für das visuelle Bearbeiten mit Pages CMS (https://pagescms.org)
+# Legt fest, welche Felder im Browser-Panel als Formular erscheinen.
+
+media:
+  input: assets/images     # wo die Bilder im Projekt liegen
+  output: assets/images    # wie die Bilder auf der Website verlinkt werden
+
+content:
+  - name: inhalte
+    label: Website-Inhalte
+    type: file
+    path: content.json
+    fields:
+      # ---------------- Verein ----------------
+      - name: verein
+        label: Verein – Grunddaten
+        type: object
+        fields:
+          - { name: name, label: Vereinsname, type: string }
+          - { name: kurzname, label: Kurzname, type: string }
+          - { name: ort, label: Ort, type: string }
+          - { name: email, label: E-Mail (für Formulare/Kontakt), type: string }
+          - { name: formKey, label: "Formular-Schlüssel (Web3Forms Access Key)", type: string }
+          - { name: formName, label: Absender-Name der Formulare, type: string }
+          - { name: slogan, label: Slogan, type: string }
+          - { name: unterzeile, label: Unterzeile (Titelbild), type: text }
+          - { name: intro, label: Intro-Text, type: text }
+          - { name: verbaende, label: Verbände, type: string, list: true }
+          - name: social
+            label: Social Media
+            type: object
+            fields:
+              - { name: facebook, label: Facebook-Link, type: string }
+              - { name: instagram, label: Instagram-Link, type: string }
+
+      # ---------------- Über uns ----------------
+      - name: ueberUns
+        label: Über uns
+        type: object
+        fields:
+          - { name: text, label: Vereinstext, type: text }
+          - name: leitung
+            label: Vereinsleitung
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: rolle, label: Funktion, type: string }
+              - { name: bild, label: Foto (optional), type: image }
+          - { name: trainer, label: Faustball-Trainer, type: string, list: true }
+          - { name: vorturner, label: Vorturner-Team, type: string, list: true }
+          - name: anlagen
+            label: Anlagen
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: bild, label: Foto (optional), type: image }
+              - { name: text, label: Beschreibung, type: text }
+
+      # ---------------- Angebot ----------------
+      - name: angebote
+        label: Unser Angebot
+        type: object
+        list: true
+        fields:
+          - { name: titel, label: Titel, type: string }
+          - { name: icon, label: Symbol, type: select, options: [krabbel, elternkind, kinder, geraete, damen, step, dance, faustball] }
+          - { name: zielgruppe, label: Zielgruppe, type: string }
+          - { name: tag, label: Tag, type: string }
+          - { name: zeit, label: Uhrzeit, type: string }
+          - { name: leitung, label: Leitung, type: string }
+          - { name: text, label: Beschreibung, type: text }
+
+      # ---------------- Mitgliedschaft ----------------
+      - name: mitgliedschaft
+        label: Mitgliedschaft
+        type: object
+        fields:
+          - name: beitraege
+            label: Beiträge
+            type: object
+            list: true
+            fields:
+              - { name: typ, label: Art, type: string }
+              - { name: preis, label: Preis, type: string }
+          - name: fitnessraum
+            label: Fitnessraum-Preise
+            type: object
+            list: true
+            fields:
+              - { name: typ, label: Art, type: string }
+              - { name: preis, label: Preis, type: string }
+          - { name: hinweise, label: Hinweise, type: text, list: true }
+          - name: bank
+            label: Bankverbindung
+            type: object
+            fields:
+              - { name: institut, label: Institut, type: string }
+              - { name: iban, label: IBAN, type: string }
+              - { name: verwendung, label: Verwendungszweck, type: string }
+          - { name: anmeldungUrl, label: Link „Zur Anmeldung“, type: string }
+
+      # ---------------- Faustball ----------------
+      - name: faustball
+        label: Faustball
+        type: object
+        fields:
+          - { name: intro, label: Einleitung, type: text }
+          - name: betreuer
+            label: Betreuer-Team
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: rolle, label: Funktion, type: string }
+              - { name: bild, label: Foto (optional), type: image }
+          - name: sponsoren
+            label: Sponsoren
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: logo, label: Logo, type: image }
+
+      # ---------------- Kontakt ----------------
+      - name: kontakt
+        label: Kontakt
+        type: object
+        fields:
+          - { name: email, label: E-Mail, type: string }
+          - { name: ort, label: Ort, type: string }
+          - { name: text, label: Einleitungstext, type: text }
+          - { name: hinweis, label: Hinweis unter dem Formular, type: text }
+
+      # ---------------- Impressum ----------------
+      - name: impressum
+        label: Impressum
+        type: object
+        fields:
+          - { name: name, label: Verein, type: string }
+          - { name: adresse, label: Anschrift, type: string }
+          - { name: zvr, label: ZVR-Zahl, type: string }
+          - { name: email, label: E-Mail, type: string }
+          - { name: website, label: Website, type: string }
+          - { name: vertretung, label: Vertretungsbefugt, type: string }
+          - { name: verantwortlich, label: Inhaltlich verantwortlich, type: string }
+          - { name: vereinszweck, label: Vereinszweck, type: text }
+          - { name: behoerde, label: Vereinsbehörde, type: string }
+          - { name: rechtstext, label: Rechtstext, type: text }
+
+      # ---------------- Datenschutz ----------------
+      - name: datenschutz
+        label: Datenschutz (anpassbare Teile)
+        type: object
+        fields:
+          - { name: stand, label: Stand, type: string }
+          - { name: verantwortlich, label: Verantwortlicher, type: text }
+          - { name: weitergabe, label: Weitergabe an Verbände, type: text }
