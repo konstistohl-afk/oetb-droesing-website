@@ -65,7 +65,7 @@ content:
         list: true
         fields:
           - { name: titel, label: Titel, type: string }
-          - { name: icon, label: Symbol, type: select, options: [krabbel, elternkind, kinder, geraete, damen, step, dance, faustball] }
+          - { name: icon, label: Symbol, type: select, options: { values: [krabbel, elternkind, kinder, geraete, damen, step, dance, faustball] } }
           - { name: zielgruppe, label: Zielgruppe, type: string }
           - { name: tag, label: Tag, type: string }
           - { name: zeit, label: Uhrzeit, type: string }
