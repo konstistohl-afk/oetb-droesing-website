@@ -4,7 +4,6 @@
     "kurzname": "ÖTB-TV Drösing",
     "ort": "2265 Drösing",
     "email": "oetb-droesing@gmail.com",
-    "formKey": "",
     "formName": "ÖTB Drösing Website",
     "slogan": "Bewegung, die verbindet",
     "unterzeile": "Turnen & Faustball für alle Generationen – mitten im Weinviertel.",
@@ -24,23 +23,19 @@
     "leitung": [
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Obmann",
-        "bild": ""
+        "rolle": "Obmann"
       },
       {
         "name": "Karl Gahm",
-        "rolle": "Zeugwart & Obmann-Stellvertreter",
-        "bild": ""
+        "rolle": "Zeugwart & Obmann-Stellvertreter"
       },
       {
         "name": "Erich Turetschek",
-        "rolle": "2. Obmann-Stellvertreter",
-        "bild": ""
+        "rolle": "2. Obmann-Stellvertreter"
       },
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball",
-        "bild": ""
+        "rolle": "Leitung Faustball"
       }
     ],
     "trainer": [
@@ -48,7 +43,7 @@
       "Martin Stohl",
       "Thomas Kvasnicka",
       "Yara van Sint Maartensdijk",
-      "Fabian Stohl"
+      "Fabian Sto"
     ],
     "vorturner": [
       "Verena Turetschek-Hies",
@@ -67,7 +62,6 @@
       },
       {
         "name": "Faustballanlage",
-        "bild": "",
         "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden."
       },
       {
@@ -136,7 +130,6 @@
       "titel": "Line Dance",
       "icon": "dance",
       "zielgruppe": "Alle Altersgruppen",
-      "tag": "",
       "zeit": "17:30–18:30",
       "leitung": "Brigitte Kaltenbrunner",
       "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
@@ -145,7 +138,6 @@
       "titel": "Faustball",
       "icon": "faustball",
       "zielgruppe": "Volksschulalter bis Senioren",
-      "tag": "",
       "zeit": "nach Trainingsplan",
       "leitung": "Andreas Huysza",
       "text": "Mehrere Altersgruppen von U10 bis zu Damen, Herren und Senioren – Freizeit- und Wettkampfsport. Details im Bereich Faustball."
@@ -201,28 +193,23 @@
     "betreuer": [
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball & Trainer",
-        "bild": ""
+        "rolle": "Leitung Faustball & Trainer"
       },
       {
         "name": "Martin Stohl",
-        "rolle": "Trainer",
-        "bild": ""
+        "rolle": "Trainer"
       },
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Trainer & Obmann",
-        "bild": ""
+        "rolle": "Trainer & Obmann"
       },
       {
         "name": "Yara van Sint Maartensdijk",
-        "rolle": "Nachwuchstrainerin",
-        "bild": ""
+        "rolle": "Nachwuchstrainerin"
       },
       {
         "name": "Fabian Stohl",
-        "rolle": "Nachwuchstrainer",
-        "bild": ""
+        "rolle": "Nachwuchstrainer"
       }
     ],
     "sponsoren": [
