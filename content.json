@@ -145,33 +145,33 @@
     "beitraege": [
       {
         "typ": "Kind",
-        "preis": "30 € / Jahr"
+        "preis": "50 € / Jahr"
       },
       {
         "typ": "Erwachsene",
-        "preis": "55 € / Jahr"
+        "preis": "75 € / Jahr"
       },
       {
-        "typ": "Fördernde Mitglieder",
+        "typ": "Unterstützende Mitglieder",
         "preis": "30 € / Jahr"
       },
       {
-        "typ": "Familie (Maximum)",
-        "preis": "120 € / Jahr"
+        "typ": "Höchstbetrag einer Familie",
+        "preis": "150 € / Jahr"
       },
       {
         "typ": "Aktiv ohne Mitgliedschaft",
-        "preis": "65 € / Jahr"
+        "preis": "85 € / Jahr"
       }
     ],
     "fitnessraum": [
       {
-        "typ": "Einzeleinheit",
+        "typ": "Je Einheit",
         "preis": "3 €"
       },
       {
         "typ": "Monatspauschale",
-        "preis": "30 €"
+        "preis": "24 €"
       }
     ],
     "hinweise": [
