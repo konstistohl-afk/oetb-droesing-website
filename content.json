@@ -4,6 +4,7 @@
     "kurzname": "ÖTB-TV Drösing",
     "ort": "2265 Drösing",
     "email": "oetb-droesing@gmail.com",
+    "formKey": "",
     "formName": "ÖTB Drösing Website",
     "slogan": "Bewegung, die verbindet",
     "unterzeile": "Turnen & Faustball für alle Generationen – mitten im Weinviertel.",
@@ -14,7 +15,7 @@
       "ASVÖ"
     ],
     "social": {
-      "facebook": "https://www.facebook.com/Faustballteam/",
+      "facebook": "https://www.facebook.com/Faustballteam/?locale=de_DE",
       "instagram": "https://www.instagram.com/oetb_droesing/"
     }
   },
@@ -23,23 +24,28 @@
     "leitung": [
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Obmann"
+        "rolle": "Obmann",
+        "bild": ""
       },
       {
         "name": "Karl Gahm",
-        "rolle": "Zeugwart & Obmann-Stellvertreter"
+        "rolle": "Zeugwart & Obmann-Stellvertreter",
+        "bild": ""
       },
       {
         "name": "Erich Turetschek",
-        "rolle": "2. Obmann-Stellvertreter"
+        "rolle": "2. Obmann-Stellvertreter",
+        "bild": ""
       },
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball"
+        "rolle": "Leitung Faustball",
+        "bild": ""
       }
     ],
     "trainer": [
       "Andreas Huysza",
+      "Martin Stohl",
       "Thomas Kvasnicka",
       "Yara van Sint Maartensdijk",
       "Fabian Stohl"
@@ -48,6 +54,7 @@
       "Verena Turetschek-Hies",
       "Katrin Bek",
       "Erich Turetschek",
+      "Verena Friedrich",
       "Stefan Koller",
       "Christa Schweinhammer",
       "Brigitte Kaltenbrunner"
@@ -60,6 +67,7 @@
       },
       {
         "name": "Faustballanlage",
+        "bild": "",
         "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden."
       },
       {
@@ -85,7 +93,7 @@
       "zielgruppe": "Kinder 2,5–6 Jahre (mit Begleitung)",
       "tag": "Mittwoch",
       "zeit": "16:00–17:00",
-      "leitung": "Verena",
+      "leitung": "Verena & Daniela",
       "text": "Spielerische Grundlagen: sicheres Bewegen, Laufen, Hüpfen, Rollen, Klettern und viele Gruppenspiele."
     },
     {
@@ -94,13 +102,13 @@
       "zielgruppe": "Kinder ab 6 Jahren",
       "tag": "Dienstag",
       "zeit": "16:45–18:15",
-      "leitung": "Erich Turetschek",
+      "leitung": "Verena Friedrich (Stv. Erich Turetschek)",
       "text": "Einführung in die klassischen Turndisziplinen und grundlegende Gerätefertigkeiten."
     },
     {
       "titel": "Geräteturnen Kinder",
       "icon": "geraete",
-      "zielgruppe": "Kinder ab 8 Jahren",
+      "zielgruppe": "Kinder ab 10 Jahren",
       "tag": "Donnerstag",
       "zeit": "17:00–18:30",
       "leitung": "Stefan Koller",
@@ -128,6 +136,7 @@
       "titel": "Line Dance",
       "icon": "dance",
       "zielgruppe": "Alle Altersgruppen",
+      "tag": "",
       "zeit": "17:30–18:30",
       "leitung": "Brigitte Kaltenbrunner",
       "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
@@ -136,6 +145,7 @@
       "titel": "Faustball",
       "icon": "faustball",
       "zielgruppe": "Volksschulalter bis Senioren",
+      "tag": "",
       "zeit": "nach Trainingsplan",
       "leitung": "Andreas Huysza",
       "text": "Mehrere Altersgruppen von U10 bis zu Damen, Herren und Senioren – Freizeit- und Wettkampfsport. Details im Bereich Faustball."
@@ -145,33 +155,33 @@
     "beitraege": [
       {
         "typ": "Kind",
-        "preis": "50 € / Jahr"
-      },
-      {
-        "typ": "Erwachsene",
-        "preis": "75 € / Jahr"
-      },
-      {
-        "typ": "Unterstützende Mitglieder",
         "preis": "30 € / Jahr"
       },
       {
-        "typ": "Höchstbetrag einer Familie",
-        "preis": "150 € / Jahr"
+        "typ": "Erwachsene",
+        "preis": "55 € / Jahr"
+      },
+      {
+        "typ": "Fördernde Mitglieder",
+        "preis": "30 € / Jahr"
+      },
+      {
+        "typ": "Familie (Maximum)",
+        "preis": "120 € / Jahr"
       },
       {
         "typ": "Aktiv ohne Mitgliedschaft",
-        "preis": "85 € / Jahr"
+        "preis": "65 € / Jahr"
       }
     ],
     "fitnessraum": [
       {
-        "typ": "Je Einheit",
+        "typ": "Einzeleinheit",
         "preis": "3 €"
       },
       {
         "typ": "Monatspauschale",
-        "preis": "24 €"
+        "preis": "30 €"
       }
     ],
     "hinweise": [
@@ -191,19 +201,28 @@
     "betreuer": [
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball & Trainer"
+        "rolle": "Leitung Faustball & Trainer",
+        "bild": ""
+      },
+      {
+        "name": "Martin Stohl",
+        "rolle": "Trainer",
+        "bild": ""
       },
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Nachwuchstrainer"
+        "rolle": "Trainer & Obmann",
+        "bild": ""
       },
       {
         "name": "Yara van Sint Maartensdijk",
-        "rolle": "Nachwuchstrainerin"
+        "rolle": "Nachwuchstrainerin",
+        "bild": ""
       },
       {
         "name": "Fabian Stohl",
-        "rolle": "Nachwuchstrainer"
+        "rolle": "Nachwuchstrainer",
+        "bild": ""
       }
     ],
     "sponsoren": [
