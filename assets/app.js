@@ -252,6 +252,22 @@
       }).join("") + "</div>";
     },
 
+    hallenplan: function () {
+      var h = D.hallenplan || {};
+      var rows = (h.tage || []).map(function (t) {
+        return (t.eintraege || []).map(function (e, i) {
+          return '<tr' + (i === 0 ? ' class="tag-start"' : "") + ">" +
+            "<td>" + (i === 0 ? "<b>" + esc(t.tag) + "</b>" : "") + "</td>" +
+            "<td>" + esc(e.von || "") + "</td>" +
+            "<td>" + esc(e.bis || "") + "</td>" +
+            "<td>" + esc(e.gruppe || "") + "</td></tr>";
+        }).join("");
+      }).join("");
+      return '<div class="table-scroll"><table class="data hallenplan"><thead><tr>' +
+        "<th>Wochentag</th><th>von</th><th>bis</th><th>Gruppe</th></tr></thead><tbody>" +
+        rows + "</tbody></table></div>";
+    },
+
     mitgliedschaft: function () {
       var m = D.mitgliedschaft || {};
       var rows = (m.beitraege || []).map(function (b) {

@@ -236,6 +236,15 @@ table.data tr:last-child td{ border-bottom:0; }
 table.data td.price{ font-weight:800; color:var(--accent-dark); white-space:nowrap; }
 .price-highlight td{ background:var(--accent-soft); }
 
+/* Turnhallenbelegung */
+.table-scroll{ overflow-x:auto; border:1px solid var(--line); border-radius:var(--radius); }
+.table-scroll table.data{ margin:0; }
+.hallenplan td{ white-space:nowrap; }
+.hallenplan td:last-child{ white-space:normal; width:99%; }
+.hallenplan tr.tag-start td{ border-top:2px solid var(--accent-soft); }
+.hallenplan tr.tag-start:first-child td{ border-top:0; }
+.hallenplan td:first-child{ color:var(--ink); }
+
 /* Wochenplan */
 .week{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; }
 .day{ background:#fff; border:1px solid var(--line); border-radius:var(--radius-sm); padding:16px; }

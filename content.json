@@ -367,5 +367,137 @@
     "stand": "Juli 2026",
     "verantwortlich": "ÖTB-TV Drösing, 2265 Drösing, E-Mail: oetb-droesing@gmail.com",
     "weitergabe": "Im Rahmen der Mitgliedschaft und des Wettkampfbetriebs werden die dafür notwendigen Daten an die zuständigen Dachverbände (ÖTB, NÖ Faustballverband, ASVÖ) übermittelt. Eine darüber hinausgehende Weitergabe an Dritte erfolgt nicht."
+  },
+  "hallenplan": {
+    "titel": "Turnhallenbelegung",
+    "zeitraum": "Wintersaison 2025/26",
+    "tage": [
+      {
+        "tag": "Montag",
+        "eintraege": [
+          {
+            "von": "15:45",
+            "bis": "17:00",
+            "gruppe": "Faustball Anfängergruppe"
+          },
+          {
+            "von": "17:00",
+            "bis": "18:30",
+            "gruppe": "Faustball U12"
+          },
+          {
+            "von": "18:30",
+            "bis": "20:30",
+            "gruppe": "Faustball Männer"
+          }
+        ]
+      },
+      {
+        "tag": "Dienstag",
+        "eintraege": [
+          {
+            "von": "10:40",
+            "bis": "12:30",
+            "gruppe": "Volksschule"
+          },
+          {
+            "von": "15:00",
+            "bis": "16:00",
+            "gruppe": "Krabbelgruppe"
+          },
+          {
+            "von": "16:00",
+            "bis": "18:30",
+            "gruppe": "Kinderturnen"
+          },
+          {
+            "von": "18:30",
+            "bis": "19:30",
+            "gruppe": "Stepaerobic"
+          },
+          {
+            "von": "19:30",
+            "bis": "21:00",
+            "gruppe": "Frauenturnen"
+          }
+        ]
+      },
+      {
+        "tag": "Mittwoch",
+        "eintraege": [
+          {
+            "von": "11:40",
+            "bis": "12:30",
+            "gruppe": "Volksschule"
+          },
+          {
+            "von": "16:00",
+            "bis": "17:00",
+            "gruppe": "Mutter/Kind Turnen"
+          },
+          {
+            "von": "17:15",
+            "bis": "18:30",
+            "gruppe": "Line Dance"
+          },
+          {
+            "von": "18:30",
+            "bis": "20:30",
+            "gruppe": "Faustball Männer"
+          }
+        ]
+      },
+      {
+        "tag": "Donnerstag",
+        "eintraege": [
+          {
+            "von": "10:40",
+            "bis": "12:30",
+            "gruppe": "Volksschule"
+          },
+          {
+            "von": "17:00",
+            "bis": "19:00",
+            "gruppe": "Geräteturnen Kinder ab 10"
+          },
+          {
+            "von": "19:00",
+            "bis": "20:30",
+            "gruppe": "FIT4YOU ab 18"
+          }
+        ]
+      },
+      {
+        "tag": "Freitag",
+        "eintraege": [
+          {
+            "von": "17:00",
+            "bis": "18:30",
+            "gruppe": "Faustball Nachwuchs U10/U12"
+          },
+          {
+            "von": "18:30",
+            "bis": "20:00",
+            "gruppe": "Faustball Nachwuchs U16"
+          }
+        ]
+      },
+      {
+        "tag": "Samstag",
+        "eintraege": [
+          {
+            "gruppe": "nach Vereinbarung"
+          }
+        ]
+      },
+      {
+        "tag": "Sonntag",
+        "eintraege": [
+          {
+            "gruppe": "nach Vereinbarung"
+          }
+        ]
+      }
+    ]
   }
 }

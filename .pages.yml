@@ -80,6 +80,28 @@ content:
               - { name: email, label: E-Mail, type: string }
           - { name: text, label: Beschreibung, type: text }
 
+      # ---------------- Turnhallenbelegung ----------------
+      - name: hallenplan
+        label: Turnhallenbelegung
+        type: object
+        fields:
+          - { name: titel, label: Titel, type: string }
+          - { name: zeitraum, label: Zeitraum, type: string }
+          - name: tage
+            label: Wochentage
+            type: object
+            list: true
+            fields:
+              - { name: tag, label: Wochentag, type: string }
+              - name: eintraege
+                label: Einträge
+                type: object
+                list: true
+                fields:
+                  - { name: von, label: von, type: string }
+                  - { name: bis, label: bis, type: string }
+                  - { name: gruppe, label: Gruppe, type: string }
+
       # ---------------- Mitgliedschaft ----------------
       - name: mitgliedschaft
         label: Mitgliedschaft
