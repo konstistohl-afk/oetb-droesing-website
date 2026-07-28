@@ -102,7 +102,7 @@
       "icon": "kinder",
       "zielgruppe": "Kinder ab 6 Jahren",
       "tag": "Dienstag",
-      "zeit": "16:45–18:15",
+      "zeit": "16:00–18:30",
       "leitungen": [
         {
           "name": "Erich Turetschek"
@@ -115,7 +115,7 @@
       "icon": "geraete",
       "zielgruppe": "Kinder ab 8 Jahren",
       "tag": "Donnerstag",
-      "zeit": "17:00–18:30",
+      "zeit": "17:00–19:00",
       "leitungen": [
         {
           "name": "Stefan Koller"
@@ -128,7 +128,7 @@
       "icon": "damen",
       "zielgruppe": "Frauen jeden Alters",
       "tag": "Dienstag",
-      "zeit": "19:45–21:15",
+      "zeit": "19:30–21:00",
       "leitungen": [
         {
           "name": "Eveline Huysza"
