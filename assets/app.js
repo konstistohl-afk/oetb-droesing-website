@@ -42,6 +42,7 @@
     menu:     '<svg viewBox="0 0 24 24" ' + S + '><path d="M3 6h18M3 12h18M3 18h18"/></svg>',
     close:    '<svg viewBox="0 0 24 24" ' + S + '><path d="M6 6l12 12M18 6L6 18"/></svg>',
     mail:     '<svg viewBox="0 0 24 24" ' + S + '><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></svg>',
+    phone:    '<svg viewBox="0 0 24 24" ' + S + '><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24 11 11 0 0 0 3.4.55 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.3a1 1 0 0 1 1 1 11 11 0 0 0 .55 3.4 1 1 0 0 1-.24 1Z"/></svg>',
     pin:      '<svg viewBox="0 0 24 24" ' + S + '><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>',
     clock:    '<svg viewBox="0 0 24 24" ' + S + '><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>',
     calendar: '<svg viewBox="0 0 24 24" ' + S + '><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>',
@@ -83,6 +84,25 @@
     if (s.facebook)  out += '<a href="' + esc(s.facebook)  + '" target="_blank" rel="noopener" aria-label="Facebook">'  + ICONS.facebook  + "</a>";
     if (s.instagram) out += '<a href="' + esc(s.instagram) + '" target="_blank" rel="noopener" aria-label="Instagram">' + ICONS.instagram + "</a>";
     return out ? '<div class="social ' + (cls || "") + '">' + out + "</div>" : "";
+  }
+  // Klickbare Kontakt-Links (Telefon/E-Mail) für Leitungs-/Betreuer-Personen
+  function kontaktLinks(p) {
+    var out = "";
+    if (p.tel)   out += '<a class="kontakt-link" href="tel:' + esc((p.tel + "").replace(/[^+0-9]/g, "")) + '">' + ICONS.phone + "<span>" + esc(p.tel) + "</span></a>";
+    if (p.email) out += '<a class="kontakt-link" href="mailto:' + esc(p.email) + '">' + ICONS.mail + "<span>" + esc(p.email) + "</span></a>";
+    return out;
+  }
+  function leiterZeile(p) {
+    var rolle = p.rolle ? ' <span class="leiter-rolle">· ' + esc(p.rolle) + "</span>" : "";
+    var k = kontaktLinks(p);
+    return '<div class="leiter"><span class="leiter-name">' + esc(p.name) + rolle + "</span>" +
+      (k ? '<span class="leiter-kontakt">' + k + "</span>" : "") + "</div>";
+  }
+  // Leitungsblock eines Angebots (unterstützt "leitungen"-Liste und altes "leitung"-Textfeld)
+  function angebotLeitung(a) {
+    var leiter = (a.leitungen && a.leitungen.length) ? a.leitungen : (a.leitung ? [{ name: a.leitung }] : []);
+    if (!leiter.length) return "";
+    return '<div class="leitung"><span class="leitung-label">Leitung</span>' + leiter.map(leiterZeile).join("") + "</div>";
   }
 
   /* ---------- Navigation-Konfiguration ---------- */
@@ -212,7 +232,7 @@
           '<div class="meta">' + chip("", a.zielgruppe, "accent") + "</div>" +
           '<div class="meta">' + chip("calendar", a.tag || "auf Anfrage", "") +
           (a.zeit ? chip("clock", a.zeit, "time") : "") + "</div>" +
-          '<div class="leitung">Leitung: ' + esc(a.leitung) + "</div></article>";
+          angebotLeitung(a) + "</article>";
       }).join("") + "</div>";
     },
 
@@ -288,8 +308,11 @@
 
     betreuer: function () {
       return '<div class="grid grid-4">' + ((D.faustball || {}).betreuer || []).map(function (p) {
+        var k = kontaktLinks(p);
         return '<article class="card leader reveal">' + avatar(p.name, p.bild, "avatar-lg") +
-          "<h3 style=\"font-size:1.05rem\">" + esc(p.name) + '</h3><div class="rolle">' + esc(p.rolle) + "</div></article>";
+          "<h3 style=\"font-size:1.05rem\">" + esc(p.name) + '</h3><div class="rolle">' + esc(p.rolle) + "</div>" +
+          (k ? '<div class="leiter-kontakt" style="justify-content:center;margin-top:.7rem">' + k + "</div>" : "") +
+          "</article>";
       }).join("") + "</div>";
     },
 

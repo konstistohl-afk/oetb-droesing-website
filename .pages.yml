@@ -65,11 +65,19 @@ content:
         list: true
         fields:
           - { name: titel, label: Titel, type: string }
-          - { name: icon, label: Symbol, type: select, options: [krabbel, elternkind, kinder, geraete, damen, step, dance, faustball] }
+          - { name: icon, label: Symbol, type: select, options: { values: [krabbel, elternkind, kinder, geraete, damen, step, dance, faustball] } }
           - { name: zielgruppe, label: Zielgruppe, type: string }
           - { name: tag, label: Tag, type: string }
           - { name: zeit, label: Uhrzeit, type: string }
-          - { name: leitung, label: Leitung, type: string }
+          - name: leitungen
+            label: Leitung(en) & Kontakt
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: rolle, label: "Funktion (optional, z. B. Nachwuchsleiter)", type: string }
+              - { name: tel, label: Telefon, type: string }
+              - { name: email, label: E-Mail, type: string }
           - { name: text, label: Beschreibung, type: text }
 
       # ---------------- Mitgliedschaft ----------------
@@ -114,6 +122,8 @@ content:
             fields:
               - { name: name, label: Name, type: string }
               - { name: rolle, label: Funktion, type: string }
+              - { name: tel, label: Telefon, type: string }
+              - { name: email, label: E-Mail, type: string }
               - { name: bild, label: Foto (optional), type: image }
           - name: sponsoren
             label: Sponsoren

@@ -193,7 +193,20 @@ p{ margin:0 0 1rem; }
 }
 .chip.accent{ background:var(--accent-soft); color:var(--accent-dark); }
 .chip.time{ background:var(--accent-soft); color:var(--accent-dark); }
-.offer .leitung{ font-size:.92rem; color:var(--muted); margin-top:.6rem; }
+.offer .leitung{ font-size:.92rem; color:var(--muted); margin-top:.7rem;
+  border-top:1px solid var(--line); padding-top:.7rem; }
+.leitung-label{ display:block; font-size:.72rem; text-transform:uppercase; letter-spacing:.08em;
+  color:var(--muted); margin-bottom:.35rem; }
+.leiter{ display:flex; flex-direction:column; gap:.25rem; margin-bottom:.55rem; }
+.leiter:last-child{ margin-bottom:0; }
+.leiter-name{ font-weight:700; color:var(--ink); }
+.leiter-rolle{ font-weight:400; color:var(--muted); }
+.leiter-kontakt{ display:flex; flex-wrap:wrap; gap:.4rem; }
+.kontakt-link{ display:inline-flex; align-items:center; gap:.32rem; font-size:.83rem;
+  color:var(--accent); background:var(--accent-soft); padding:.22rem .6rem; border-radius:999px;
+  transition:background .15s, color .15s; }
+.kontakt-link svg{ width:14px; height:14px; flex:0 0 auto; }
+.kontakt-link:hover{ background:var(--accent); color:#fff; }
 
 /* Personen-Chips / Listen */
 .tags{ display:flex; flex-wrap:wrap; gap:.45rem; }

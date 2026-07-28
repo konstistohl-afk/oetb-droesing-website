@@ -4,7 +4,6 @@
     "kurzname": "ÖTB-TV Drösing",
     "ort": "2265 Drösing",
     "email": "oetb-droesing@gmail.com",
-    "formKey": "",
     "formName": "ÖTB Drösing Website",
     "slogan": "Bewegung, die verbindet",
     "unterzeile": "Turnen & Faustball für alle Generationen – mitten im Weinviertel.",
@@ -15,7 +14,7 @@
       "ASVÖ"
     ],
     "social": {
-      "facebook": "https://www.facebook.com/Faustballteam/?locale=de_DE",
+      "facebook": "https://www.facebook.com/Faustballteam/",
       "instagram": "https://www.instagram.com/oetb_droesing/"
     }
   },
@@ -24,28 +23,23 @@
     "leitung": [
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Obmann",
-        "bild": ""
+        "rolle": "Obmann"
       },
       {
         "name": "Karl Gahm",
-        "rolle": "Zeugwart & Obmann-Stellvertreter",
-        "bild": ""
+        "rolle": "Zeugwart & Obmann-Stellvertreter"
       },
       {
         "name": "Erich Turetschek",
-        "rolle": "2. Obmann-Stellvertreter",
-        "bild": ""
+        "rolle": "2. Obmann-Stellvertreter"
       },
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball",
-        "bild": ""
+        "rolle": "Leitung Faustball"
       }
     ],
     "trainer": [
       "Andreas Huysza",
-      "Martin Stohl",
       "Thomas Kvasnicka",
       "Yara van Sint Maartensdijk",
       "Fabian Stohl"
@@ -54,7 +48,6 @@
       "Verena Turetschek-Hies",
       "Katrin Bek",
       "Erich Turetschek",
-      "Verena Friedrich",
       "Stefan Koller",
       "Christa Schweinhammer",
       "Brigitte Kaltenbrunner"
@@ -67,7 +60,6 @@
       },
       {
         "name": "Faustballanlage",
-        "bild": "",
         "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden."
       },
       {
@@ -84,7 +76,9 @@
       "zielgruppe": "Babys & Kleinkinder bis 2,5 Jahre (mit Begleitung)",
       "tag": "Dienstag",
       "zeit": "15:00–16:00",
-      "leitung": "Sabrina Pachofszky",
+      "leitungen": [
+        { "name": "Sabrina Pachofszky" }
+      ],
       "text": "Gemeinsam bauen wir verschiedene Elemente auf, die Babys und Kleinkinder bei der Entwicklung ihrer motorischen Fähigkeiten unterstützen."
     },
     {
@@ -93,7 +87,9 @@
       "zielgruppe": "Kinder 2,5–6 Jahre (mit Begleitung)",
       "tag": "Mittwoch",
       "zeit": "16:00–17:00",
-      "leitung": "Verena & Daniela",
+      "leitungen": [
+        { "name": "Verena" }
+      ],
       "text": "Spielerische Grundlagen: sicheres Bewegen, Laufen, Hüpfen, Rollen, Klettern und viele Gruppenspiele."
     },
     {
@@ -102,16 +98,20 @@
       "zielgruppe": "Kinder ab 6 Jahren",
       "tag": "Dienstag",
       "zeit": "16:45–18:15",
-      "leitung": "Verena Friedrich (Stv. Erich Turetschek)",
+      "leitungen": [
+        { "name": "Erich Turetschek" }
+      ],
       "text": "Einführung in die klassischen Turndisziplinen und grundlegende Gerätefertigkeiten."
     },
     {
       "titel": "Geräteturnen Kinder",
       "icon": "geraete",
-      "zielgruppe": "Kinder ab 10 Jahren",
+      "zielgruppe": "Kinder ab 8 Jahren",
       "tag": "Donnerstag",
       "zeit": "17:00–18:30",
-      "leitung": "Stefan Koller",
+      "leitungen": [
+        { "name": "Stefan Koller" }
+      ],
       "text": "Fortgeschrittenes Gerätturnen: Boden, Barren, Reck, Sprung und Ringe."
     },
     {
@@ -120,7 +120,10 @@
       "zielgruppe": "Frauen jeden Alters",
       "tag": "Dienstag",
       "zeit": "19:45–21:15",
-      "leitung": "Eveline Huysza & Christa Schweinhammer",
+      "leitungen": [
+        { "name": "Eveline Huysza" },
+        { "name": "Christa Schweinhammer" }
+      ],
       "text": "Ein vielseitiges Bewegungsangebot mit Laufen, Spielen, Gymnastik, Konditionstraining, Tanz, Yoga und Pilates."
     },
     {
@@ -129,25 +132,41 @@
       "zielgruppe": "Alle Altersgruppen",
       "tag": "Dienstag",
       "zeit": "18:30–19:30",
-      "leitung": "Christa Schweinhammer",
+      "leitungen": [
+        { "name": "Christa Schweinhammer" }
+      ],
       "text": "Herz-Kreislauf-Training mit Fokus auf Bein- und Gesäßmuskulatur – rhythmische Bewegung zur Musik."
     },
     {
       "titel": "Line Dance",
       "icon": "dance",
       "zielgruppe": "Alle Altersgruppen",
-      "tag": "",
       "zeit": "17:30–18:30",
-      "leitung": "Brigitte Kaltenbrunner",
+      "leitungen": [
+        { "name": "Brigitte Kaltenbrunner" }
+      ],
       "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
+    },
+    {
+      "titel": "Erwachsenenturnen",
+      "icon": "geraete",
+      "zielgruppe": "Erwachsene jeden Alters",
+      "tag": "",
+      "zeit": "",
+      "leitungen": [
+        { "name": "Erich Turetschek" }
+      ],
+      "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft."
     },
     {
       "titel": "Faustball",
       "icon": "faustball",
       "zielgruppe": "Volksschulalter bis Senioren",
-      "tag": "",
       "zeit": "nach Trainingsplan",
-      "leitung": "Andreas Huysza",
+      "leitungen": [
+        { "name": "Andreas Huysza", "rolle": "Leitung" },
+        { "name": "Fabian Stohl", "rolle": "Nachwuchsleiter" }
+      ],
       "text": "Mehrere Altersgruppen von U10 bis zu Damen, Herren und Senioren – Freizeit- und Wettkampfsport. Details im Bereich Faustball."
     }
   ],
@@ -155,33 +174,33 @@
     "beitraege": [
       {
         "typ": "Kind",
-        "preis": "30 € / Jahr"
+        "preis": "50 € / Jahr"
       },
       {
         "typ": "Erwachsene",
-        "preis": "55 € / Jahr"
+        "preis": "75 € / Jahr"
       },
       {
-        "typ": "Fördernde Mitglieder",
+        "typ": "Unterstützende Mitglieder",
         "preis": "30 € / Jahr"
       },
       {
-        "typ": "Familie (Maximum)",
-        "preis": "120 € / Jahr"
+        "typ": "Höchstbetrag einer Familie",
+        "preis": "150 € / Jahr"
       },
       {
         "typ": "Aktiv ohne Mitgliedschaft",
-        "preis": "65 € / Jahr"
+        "preis": "85 € / Jahr"
       }
     ],
     "fitnessraum": [
       {
-        "typ": "Einzeleinheit",
+        "typ": "Je Einheit",
         "preis": "3 €"
       },
       {
         "typ": "Monatspauschale",
-        "preis": "30 €"
+        "preis": "24 €"
       }
     ],
     "hinweise": [
@@ -201,28 +220,19 @@
     "betreuer": [
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball & Trainer",
-        "bild": ""
-      },
-      {
-        "name": "Martin Stohl",
-        "rolle": "Trainer",
-        "bild": ""
+        "rolle": "Leitung Faustball & Trainer"
       },
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Trainer & Obmann",
-        "bild": ""
+        "rolle": "Nachwuchstrainer"
       },
       {
         "name": "Yara van Sint Maartensdijk",
-        "rolle": "Nachwuchstrainerin",
-        "bild": ""
+        "rolle": "Nachwuchstrainerin"
       },
       {
         "name": "Fabian Stohl",
-        "rolle": "Nachwuchstrainer",
-        "bild": ""
+        "rolle": "Nachwuchstrainer"
       }
     ],
     "sponsoren": [
