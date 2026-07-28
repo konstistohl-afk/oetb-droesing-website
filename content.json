@@ -77,7 +77,9 @@
       "tag": "Dienstag",
       "zeit": "15:00–16:00",
       "leitungen": [
-        { "name": "Sabrina Pachofszky" }
+        {
+          "name": "Sabrina Pachofszky"
+        }
       ],
       "text": "Gemeinsam bauen wir verschiedene Elemente auf, die Babys und Kleinkinder bei der Entwicklung ihrer motorischen Fähigkeiten unterstützen."
     },
@@ -88,7 +90,9 @@
       "tag": "Mittwoch",
       "zeit": "16:00–17:00",
       "leitungen": [
-        { "name": "Verena" }
+        {
+          "name": "Verena"
+        }
       ],
       "text": "Spielerische Grundlagen: sicheres Bewegen, Laufen, Hüpfen, Rollen, Klettern und viele Gruppenspiele."
     },
@@ -99,7 +103,9 @@
       "tag": "Dienstag",
       "zeit": "16:45–18:15",
       "leitungen": [
-        { "name": "Erich Turetschek" }
+        {
+          "name": "Erich Turetschek"
+        }
       ],
       "text": "Einführung in die klassischen Turndisziplinen und grundlegende Gerätefertigkeiten."
     },
@@ -110,7 +116,9 @@
       "tag": "Donnerstag",
       "zeit": "17:00–18:30",
       "leitungen": [
-        { "name": "Stefan Koller" }
+        {
+          "name": "Stefan Koller"
+        }
       ],
       "text": "Fortgeschrittenes Gerätturnen: Boden, Barren, Reck, Sprung und Ringe."
     },
@@ -121,8 +129,12 @@
       "tag": "Dienstag",
       "zeit": "19:45–21:15",
       "leitungen": [
-        { "name": "Eveline Huysza" },
-        { "name": "Christa Schweinhammer" }
+        {
+          "name": "Eveline Huysza"
+        },
+        {
+          "name": "Christa Schweinhammer"
+        }
       ],
       "text": "Ein vielseitiges Bewegungsangebot mit Laufen, Spielen, Gymnastik, Konditionstraining, Tanz, Yoga und Pilates."
     },
@@ -133,7 +145,9 @@
       "tag": "Dienstag",
       "zeit": "18:30–19:30",
       "leitungen": [
-        { "name": "Christa Schweinhammer" }
+        {
+          "name": "Christa Schweinhammer"
+        }
       ],
       "text": "Herz-Kreislauf-Training mit Fokus auf Bein- und Gesäßmuskulatur – rhythmische Bewegung zur Musik."
     },
@@ -143,7 +157,9 @@
       "zielgruppe": "Alle Altersgruppen",
       "zeit": "17:30–18:30",
       "leitungen": [
-        { "name": "Brigitte Kaltenbrunner" }
+        {
+          "name": "Brigitte Kaltenbrunner"
+        }
       ],
       "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
     },
@@ -151,10 +167,10 @@
       "titel": "Erwachsenenturnen",
       "icon": "geraete",
       "zielgruppe": "Erwachsene jeden Alters",
-      "tag": "",
-      "zeit": "",
       "leitungen": [
-        { "name": "Erich Turetschek" }
+        {
+          "name": "Erich Turetschek"
+        }
       ],
       "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft."
     },
@@ -164,8 +180,16 @@
       "zielgruppe": "Volksschulalter bis Senioren",
       "zeit": "nach Trainingsplan",
       "leitungen": [
-        { "name": "Andreas Huysza", "rolle": "Leitung" },
-        { "name": "Fabian Stohl", "rolle": "Nachwuchsleiter" }
+        {
+          "name": "Andreas Huysza",
+          "rolle": "Leitung",
+          "email": "andreas.huysza@gmx.at"
+        },
+        {
+          "name": "Fabian Stohl",
+          "rolle": "Nachwuchsleiter",
+          "email": "fabian29.stohl@gmail.com"
+        }
       ],
       "text": "Mehrere Altersgruppen von U10 bis zu Damen, Herren und Senioren – Freizeit- und Wettkampfsport. Details im Bereich Faustball."
     }
