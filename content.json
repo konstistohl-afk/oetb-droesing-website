@@ -60,7 +60,8 @@
       },
       {
         "name": "Faustballanlage",
-        "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden."
+        "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden.",
+        "bild": "assets/images/anlagen/faustballplatz.jpg"
       },
       {
         "name": "Kraftkammer",
