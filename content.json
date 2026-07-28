@@ -244,7 +244,8 @@
     "betreuer": [
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball & Trainer"
+        "rolle": "Leitung Faustball & Trainer",
+        "email": "andreas.huysza@gmx.at"
       },
       {
         "name": "Thomas Kvasnicka",
@@ -256,7 +257,9 @@
       },
       {
         "name": "Fabian Stohl",
-        "rolle": "Nachwuchstrainer"
+        "rolle": "Nachwuchstrainer",
+        "tel": "89384940",
+        "email": "fabian.stohl29@gmail.com"
       }
     ],
     "sponsoren": [
