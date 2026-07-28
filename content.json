@@ -60,8 +60,8 @@
       },
       {
         "name": "Faustballanlage",
-        "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden.",
-        "bild": "assets/images/anlagen/faustballplatz.jpg"
+        "bild": "assets/images/anlagen/faustballplatz.jpg",
+        "text": "Zwei Plätze in Meisterschaftsgröße mit Flutlicht, Zuschauerplätzen und Nebengebäuden."
       },
       {
         "name": "Kraftkammer",
@@ -156,27 +156,27 @@
       "titel": "Line Dance",
       "icon": "dance",
       "zielgruppe": "Alle Altersgruppen",
+      "tag": "Mittwoch",
       "zeit": "17:15–18:30",
       "leitungen": [
         {
           "name": "Brigitte Kaltenbrunner"
         }
       ],
-      "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner.",
-      "tag": "Mittwoch"
+      "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
     },
     {
       "titel": "FIT4YOU",
       "icon": "geraete",
       "zielgruppe": "Erwachsene ab 18 Jahren",
+      "tag": "Donnerstag",
+      "zeit": "19:00–20:30",
       "leitungen": [
         {
           "name": "Erich Turetschek"
         }
       ],
-      "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft.",
-      "tag": "Donnerstag",
-      "zeit": "19:00–20:30"
+      "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft."
     },
     {
       "titel": "Faustball",
@@ -198,180 +198,6 @@
       "text": "Mehrere Altersgruppen von U10 bis zu Damen, Herren und Senioren – Freizeit- und Wettkampfsport. Details im Bereich Faustball."
     }
   ],
-  "mitgliedschaft": {
-    "beitraege": [
-      {
-        "typ": "Kind",
-        "preis": "50 € / Jahr"
-      },
-      {
-        "typ": "Erwachsene",
-        "preis": "75 € / Jahr"
-      },
-      {
-        "typ": "Unterstützende Mitglieder",
-        "preis": "30 € / Jahr"
-      },
-      {
-        "typ": "Höchstbetrag einer Familie",
-        "preis": "150 € / Jahr"
-      },
-      {
-        "typ": "Aktiv ohne Mitgliedschaft",
-        "preis": "85 € / Jahr"
-      }
-    ],
-    "fitnessraum": [
-      {
-        "typ": "Je Einheit",
-        "preis": "3 €"
-      },
-      {
-        "typ": "Monatspauschale",
-        "preis": "24 €"
-      }
-    ],
-    "hinweise": [
-      "Der Mitgliedsbeitrag gilt für ein Kalenderjahr (Jänner bis Dezember).",
-      "Die Beiträge sind bis Ende Februar zu begleichen, um alle Angebote nutzen zu können.",
-      "Ausgenommen von den Mitgliedsbeiträgen sind Angebote in Kursform sowie die Nutzung des Fitnessraums."
-    ],
-    "bank": {
-      "institut": "RAIKA Neusiedl/Zaya",
-      "iban": "AT78 3255 1000 0017 2270",
-      "verwendung": "Mitgliedsbeitrag [Jahr], [NAME]"
-    },
-    "anmeldungUrl": "anmeldung.html"
-  },
-  "faustball": {
-    "intro": "Faustball ist eine schnelle Rückschlag-Sportart, die im Freien und in der Halle gespielt wird. Unser Verein stellt Mannschaften in nahezu allen Alters- und Leistungsklassen – von den Jüngsten bis zur 1. Bundesliga der Herren.",
-    "betreuer": [
-      {
-        "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball & Trainer",
-        "email": "andreas.huysza@gmx.at"
-      },
-      {
-        "name": "Thomas Kvasnicka",
-        "rolle": "Nachwuchstrainer"
-      },
-      {
-        "name": "Yara van Sint Maartensdijk",
-        "rolle": "Nachwuchstrainerin"
-      },
-      {
-        "name": "Fabian Stohl",
-        "rolle": "Nachwuchstrainer",
-        "tel": "89384940",
-        "email": "fabian.stohl29@gmail.com"
-      }
-    ],
-    "sponsoren": [
-      {
-        "name": "Windpartner",
-        "logo": "assets/images/sponsorlogos/windpartner.jpg"
-      },
-      {
-        "name": "BSM Brandschutz Malcsik GmbH",
-        "logo": "assets/images/sponsorlogos/bsm.png"
-      },
-      {
-        "name": "Sportland Niederösterreich",
-        "logo": "assets/images/sponsorlogos/sportland.svg"
-      },
-      {
-        "name": "EVN",
-        "logo": "assets/images/sponsorlogos/evn.jpg"
-      },
-      {
-        "name": "KFZ Jakum",
-        "logo": "assets/images/sponsorlogos/kfz-jakum.jpg"
-      },
-      {
-        "name": "Tischlerei Noll",
-        "logo": "assets/images/sponsorlogos/noll.png"
-      },
-      {
-        "name": "Hörakustik Rakosch",
-        "logo": "assets/images/sponsorlogos/rakosch.png"
-      },
-      {
-        "name": "Femaroll Sonnenschutzanlagen",
-        "logo": "assets/images/sponsorlogos/femaroll.jpg"
-      },
-      {
-        "name": "Möbel Weiser",
-        "logo": "assets/images/sponsorlogos/moebel-weiser.jpg"
-      },
-      {
-        "name": "Baumeister Weiser Drösing",
-        "logo": "assets/images/sponsorlogos/baumeister-weiser.png"
-      },
-      {
-        "name": "Haustechnik Forschner",
-        "logo": "assets/images/sponsorlogos/forschner.png"
-      },
-      {
-        "name": "Raiffeisen – Meine Bank in Drösing",
-        "logo": "assets/images/sponsorlogos/raiffeisen.jpg"
-      },
-      {
-        "name": "GB Geotechnik Bauingenieure",
-        "logo": "assets/images/sponsorlogos/gb-geotechnik.jpg"
-      },
-      {
-        "name": "Sport Böhm",
-        "logo": "assets/images/sponsorlogos/sport-boehm.jpg"
-      },
-      {
-        "name": "Müllnerdach",
-        "logo": "assets/images/sponsorlogos/muellnerdach.jpg"
-      },
-      {
-        "name": "Bloch³",
-        "logo": "assets/images/sponsorlogos/bloch3.jpg"
-      },
-      {
-        "name": "Meierhof – Heuriger Gass",
-        "logo": "assets/images/sponsorlogos/meierhof.jpg"
-      },
-      {
-        "name": "Pittel + Brausewetter",
-        "logo": "assets/images/sponsorlogos/pittel-brausewetter.png"
-      },
-      {
-        "name": "Niederösterreichische Versicherung",
-        "logo": "assets/images/sponsorlogos/noe-versicherung.jpg"
-      },
-      {
-        "name": "Planenbau",
-        "logo": "assets/images/sponsorlogos/planenbau.png"
-      }
-    ]
-  },
-  "kontakt": {
-    "email": "oetb-droesing@gmail.com",
-    "ort": "2265 Drösing, Österreich",
-    "text": "Fragen zu unseren Angeboten, zur Mitgliedschaft oder zum Faustball? Schreib uns – wir melden uns gerne zurück.",
-    "hinweis": "Mit dem Absenden schickst Du uns Deine Nachricht direkt zu. Wir antworten so bald wie möglich."
-  },
-  "impressum": {
-    "name": "ÖTB-TV Drösing",
-    "adresse": "2265 Drösing, Österreich",
-    "zvr": "078185050",
-    "email": "oetb-droesing@gmail.com",
-    "website": "www.oetbdroesing.com",
-    "vertretung": "Thomas Kvasnicka (vertretungsberechtigter Obmann)",
-    "verantwortlich": "Verena Hahn (inhaltlich verantwortlich, § 25 MedienG)",
-    "vereinszweck": "Pflege und Förderung des Turnsports, des Faustballsports und der körperlichen Ertüchtigung.",
-    "behoerde": "Bezirkshauptmannschaft Gänserndorf (Vereinsbehörde)",
-    "rechtstext": "Haftung für Inhalte externer Links wird nicht übernommen – für deren Inhalte sind ausschließlich deren Betreiber verantwortlich. Eigene Inhalte werden mit größter Sorgfalt erstellt; für Richtigkeit, Vollständigkeit und Aktualität kann dennoch keine Gewähr übernommen werden. Alle Inhalte dieser Website sind urheberrechtlich geschützt. Informationen zum Umgang mit personenbezogenen Daten findest du in unserer Datenschutzerklärung."
-  },
-  "datenschutz": {
-    "stand": "Juli 2026",
-    "verantwortlich": "ÖTB-TV Drösing, 2265 Drösing, E-Mail: oetb-droesing@gmail.com",
-    "weitergabe": "Im Rahmen der Mitgliedschaft und des Wettkampfbetriebs werden die dafür notwendigen Daten an die zuständigen Dachverbände (ÖTB, NÖ Faustballverband, ASVÖ) übermittelt. Eine darüber hinausgehende Weitergabe an Dritte erfolgt nicht."
-  },
   "hallenplan": {
     "titel": "Turnhallenbelegung",
     "tage": [
@@ -502,5 +328,179 @@
         ]
       }
     ]
+  },
+  "mitgliedschaft": {
+    "beitraege": [
+      {
+        "typ": "Kind",
+        "preis": "50 € / Jahr"
+      },
+      {
+        "typ": "Erwachsene",
+        "preis": "75 € / Jahr"
+      },
+      {
+        "typ": "Unterstützende Mitglieder",
+        "preis": "30 € / Jahr"
+      },
+      {
+        "typ": "Höchstbetrag einer Familie",
+        "preis": "150 € / Jahr"
+      },
+      {
+        "typ": "Aktiv ohne Mitgliedschaft",
+        "preis": "85 € / Jahr"
+      }
+    ],
+    "fitnessraum": [
+      {
+        "typ": "Je Einheit",
+        "preis": "3 €"
+      },
+      {
+        "typ": "Monatspauschale",
+        "preis": "24 €"
+      }
+    ],
+    "hinweise": [
+      "Der Mitgliedsbeitrag gilt für ein Kalenderjahr (Jänner bis Dezember).",
+      "Die Beiträge sind bis Ende Februar zu begleichen, um alle Angebote nutzen zu können.",
+      "Ausgenommen von den Mitgliedsbeiträgen sind Angebote in Kursform sowie die Nutzung des Fitnessraums."
+    ],
+    "bank": {
+      "institut": "RAIKA Neusiedl/Zaya",
+      "iban": "AT78 3255 1000 0017 2270",
+      "verwendung": "Mitgliedsbeitrag [Jahr], [NAME]"
+    },
+    "anmeldungUrl": "anmeldung.html"
+  },
+  "faustball": {
+    "intro": "Faustball ist eine schnelle Rückschlag-Sportart, die im Freien und in der Halle gespielt wird. Unser Verein stellt Mannschaften in nahezu allen Alters- und Leistungsklassen – von den Jüngsten bis zur 1. Bundesliga der Herren.",
+    "betreuer": [
+      {
+        "name": "Andreas Huysza",
+        "rolle": "Leitung Faustball & Trainer",
+        "email": "andreas.huysza@gmx.at"
+      },
+      {
+        "name": "Thomas Kvasnicka",
+        "rolle": "Nachwuchstrainer"
+      },
+      {
+        "name": "Yara van Sint Maartensdijk",
+        "rolle": "Nachwuchstrainerin"
+      },
+      {
+        "name": "Fabian Stohl",
+        "rolle": "Leitung Nachwuchs & Nachwuchstrainer",
+        "tel": "89384940",
+        "email": "fabian.stohl29@gmail.com"
+      }
+    ],
+    "sponsoren": [
+      {
+        "name": "Windpartner",
+        "logo": "assets/images/sponsorlogos/windpartner.jpg"
+      },
+      {
+        "name": "BSM Brandschutz Malcsik GmbH",
+        "logo": "assets/images/sponsorlogos/bsm.png"
+      },
+      {
+        "name": "Sportland Niederösterreich",
+        "logo": "assets/images/sponsorlogos/sportland.svg"
+      },
+      {
+        "name": "EVN",
+        "logo": "assets/images/sponsorlogos/evn.jpg"
+      },
+      {
+        "name": "KFZ Jakum",
+        "logo": "assets/images/sponsorlogos/kfz-jakum.jpg"
+      },
+      {
+        "name": "Tischlerei Noll",
+        "logo": "assets/images/sponsorlogos/noll.png"
+      },
+      {
+        "name": "Hörakustik Rakosch",
+        "logo": "assets/images/sponsorlogos/rakosch.png"
+      },
+      {
+        "name": "Femaroll Sonnenschutzanlagen",
+        "logo": "assets/images/sponsorlogos/femaroll.jpg"
+      },
+      {
+        "name": "Möbel Weiser",
+        "logo": "assets/images/sponsorlogos/moebel-weiser.jpg"
+      },
+      {
+        "name": "Baumeister Weiser Drösing",
+        "logo": "assets/images/sponsorlogos/baumeister-weiser.png"
+      },
+      {
+        "name": "Haustechnik Forschner",
+        "logo": "assets/images/sponsorlogos/forschner.png"
+      },
+      {
+        "name": "Raiffeisen – Meine Bank in Drösing",
+        "logo": "assets/images/sponsorlogos/raiffeisen.jpg"
+      },
+      {
+        "name": "GB Geotechnik Bauingenieure",
+        "logo": "assets/images/sponsorlogos/gb-geotechnik.jpg"
+      },
+      {
+        "name": "Sport Böhm",
+        "logo": "assets/images/sponsorlogos/sport-boehm.jpg"
+      },
+      {
+        "name": "Müllnerdach",
+        "logo": "assets/images/sponsorlogos/muellnerdach.jpg"
+      },
+      {
+        "name": "Bloch³",
+        "logo": "assets/images/sponsorlogos/bloch3.jpg"
+      },
+      {
+        "name": "Meierhof – Heuriger Gass",
+        "logo": "assets/images/sponsorlogos/meierhof.jpg"
+      },
+      {
+        "name": "Pittel + Brausewetter",
+        "logo": "assets/images/sponsorlogos/pittel-brausewetter.png"
+      },
+      {
+        "name": "Niederösterreichische Versicherung",
+        "logo": "assets/images/sponsorlogos/noe-versicherung.jpg"
+      },
+      {
+        "name": "Planenbau",
+        "logo": "assets/images/sponsorlogos/planenbau.png"
+      }
+    ]
+  },
+  "kontakt": {
+    "email": "oetb-droesing@gmail.com",
+    "ort": "2265 Drösing, Österreich",
+    "text": "Fragen zu unseren Angeboten, zur Mitgliedschaft oder zum Faustball? Schreib uns – wir melden uns gerne zurück.",
+    "hinweis": "Mit dem Absenden schickst Du uns Deine Nachricht direkt zu. Wir antworten so bald wie möglich."
+  },
+  "impressum": {
+    "name": "ÖTB-TV Drösing",
+    "adresse": "2265 Drösing, Österreich",
+    "zvr": "078185050",
+    "email": "oetb-droesing@gmail.com",
+    "website": "www.oetbdroesing.com",
+    "vertretung": "Thomas Kvasnicka (vertretungsberechtigter Obmann)",
+    "verantwortlich": "Verena Hahn (inhaltlich verantwortlich, § 25 MedienG)",
+    "vereinszweck": "Pflege und Förderung des Turnsports, des Faustballsports und der körperlichen Ertüchtigung.",
+    "behoerde": "Bezirkshauptmannschaft Gänserndorf (Vereinsbehörde)",
+    "rechtstext": "Haftung für Inhalte externer Links wird nicht übernommen – für deren Inhalte sind ausschließlich deren Betreiber verantwortlich. Eigene Inhalte werden mit größter Sorgfalt erstellt; für Richtigkeit, Vollständigkeit und Aktualität kann dennoch keine Gewähr übernommen werden. Alle Inhalte dieser Website sind urheberrechtlich geschützt. Informationen zum Umgang mit personenbezogenen Daten findest du in unserer Datenschutzerklärung."
+  },
+  "datenschutz": {
+    "stand": "Juli 2026",
+    "verantwortlich": "ÖTB-TV Drösing, 2265 Drösing, E-Mail: oetb-droesing@gmail.com",
+    "weitergabe": "Im Rahmen der Mitgliedschaft und des Wettkampfbetriebs werden die dafür notwendigen Daten an die zuständigen Dachverbände (ÖTB, NÖ Faustballverband, ASVÖ) übermittelt. Eine darüber hinausgehende Weitergabe an Dritte erfolgt nicht."
   }
 }
