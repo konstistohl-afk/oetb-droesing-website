@@ -86,7 +86,6 @@ content:
         type: object
         fields:
           - { name: titel, label: Titel, type: string }
-          - { name: zeitraum, label: Zeitraum, type: string }
           - name: tage
             label: Wochentage
             type: object

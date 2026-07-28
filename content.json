@@ -156,24 +156,27 @@
       "titel": "Line Dance",
       "icon": "dance",
       "zielgruppe": "Alle Altersgruppen",
-      "zeit": "17:30–18:30",
+      "zeit": "17:15–18:30",
       "leitungen": [
         {
           "name": "Brigitte Kaltenbrunner"
         }
       ],
-      "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
+      "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner.",
+      "tag": "Mittwoch"
     },
     {
-      "titel": "Erwachsenenturnen",
+      "titel": "FIT4YOU",
       "icon": "geraete",
-      "zielgruppe": "Erwachsene jeden Alters",
+      "zielgruppe": "Erwachsene ab 18 Jahren",
       "leitungen": [
         {
           "name": "Erich Turetschek"
         }
       ],
-      "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft."
+      "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft.",
+      "tag": "Donnerstag",
+      "zeit": "19:00–20:30"
     },
     {
       "titel": "Faustball",
@@ -371,7 +374,6 @@
   },
   "hallenplan": {
     "titel": "Turnhallenbelegung",
-    "zeitraum": "Wintersaison 2025/26",
     "tage": [
       {
         "tag": "Montag",

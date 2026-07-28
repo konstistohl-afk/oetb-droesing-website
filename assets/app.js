@@ -236,36 +236,18 @@
       }).join("") + "</div>";
     },
 
-    wochenplan: function () {
-      var order = ["Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag"];
-      var byDay = {};
-      (D.angebote || []).forEach(function (a) {
-        if (!a.tag) return;
-        (byDay[a.tag] = byDay[a.tag] || []).push(a);
-      });
-      var days = order.filter(function (d) { return byDay[d]; });
-      if (!days.length) return "";
-      return '<div class="week">' + days.map(function (d) {
-        return '<div class="day"><h4>' + esc(d) + "</h4>" + byDay[d].map(function (a) {
-          return '<div class="slot"><b>' + esc(a.titel) + "</b><span>" + esc(a.zeit || "") + "</span></div>";
-        }).join("") + "</div>";
-      }).join("") + "</div>";
-    },
-
     hallenplan: function () {
       var h = D.hallenplan || {};
-      var rows = (h.tage || []).map(function (t) {
-        return (t.eintraege || []).map(function (e, i) {
-          return '<tr' + (i === 0 ? ' class="tag-start"' : "") + ">" +
-            "<td>" + (i === 0 ? "<b>" + esc(t.tag) + "</b>" : "") + "</td>" +
-            "<td>" + esc(e.von || "") + "</td>" +
-            "<td>" + esc(e.bis || "") + "</td>" +
-            "<td>" + esc(e.gruppe || "") + "</td></tr>";
+      return '<div class="plan-grid">' + (h.tage || []).map(function (t) {
+        var rows = (t.eintraege || []).map(function (e) {
+          var zeit = (e.von && e.bis) ? (e.von + "–" + e.bis) : "";
+          return '<div class="plan-row">' +
+            (zeit ? '<span class="plan-time">' + ICONS.clock + esc(zeit) + "</span>"
+                  : '<span class="plan-time plan-time--flex">' + ICONS.clock + "flexibel</span>") +
+            '<span class="plan-group">' + esc(e.gruppe || "") + "</span></div>";
         }).join("");
-      }).join("");
-      return '<div class="table-scroll"><table class="data hallenplan"><thead><tr>' +
-        "<th>Wochentag</th><th>von</th><th>bis</th><th>Gruppe</th></tr></thead><tbody>" +
-        rows + "</tbody></table></div>";
+        return '<article class="card plan-day reveal"><h4>' + ICONS.calendar + esc(t.tag) + "</h4>" + rows + "</article>";
+      }).join("") + "</div>";
     },
 
     mitgliedschaft: function () {

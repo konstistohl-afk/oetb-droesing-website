@@ -237,23 +237,24 @@ table.data td.price{ font-weight:800; color:var(--accent-dark); white-space:nowr
 .price-highlight td{ background:var(--accent-soft); }
 
 /* Turnhallenbelegung */
-.table-scroll{ overflow-x:auto; border:1px solid var(--line); border-radius:var(--radius); }
-.table-scroll table.data{ margin:0; }
-.hallenplan td{ white-space:nowrap; }
-.hallenplan td:last-child{ white-space:normal; width:99%; }
-.hallenplan tr.tag-start td{ border-top:2px solid var(--accent-soft); }
-.hallenplan tr.tag-start:first-child td{ border-top:0; }
-.hallenplan td:first-child{ color:var(--ink); }
-
-/* Wochenplan */
-.week{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:14px; }
-.day{ background:#fff; border:1px solid var(--line); border-radius:var(--radius-sm); padding:16px; }
-.day h4{ margin:0 0 .6rem; font-size:.85rem; text-transform:uppercase; letter-spacing:.06em;
-  color:var(--muted); }
-.day .slot{ font-size:.9rem; padding:.5rem 0; border-top:1px dashed var(--line); }
-.day .slot:first-of-type{ border-top:0; }
-.day .slot b{ display:block; }
-.day .slot span{ color:var(--muted); font-size:.82rem; }
+.plan-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:20px; }
+.plan-day h4{
+  display:flex; align-items:center; gap:.55rem; margin:0 0 1rem; padding-bottom:.8rem;
+  border-bottom:2px solid var(--accent-soft); font-size:1.05rem; font-weight:800; color:var(--ink);
+}
+.plan-day h4 svg{ width:19px; height:19px; color:var(--accent); flex:0 0 auto; }
+.plan-row{
+  display:flex; align-items:baseline; gap:.7rem; padding:.5rem 0; border-top:1px dashed var(--line);
+}
+.plan-row:first-of-type{ border-top:0; padding-top:0; }
+.plan-time{
+  display:inline-flex; align-items:center; gap:.32rem; flex:0 0 auto; font-size:.82rem; font-weight:700;
+  color:var(--accent-dark); background:var(--accent-soft); padding:.28rem .6rem; border-radius:999px;
+  white-space:nowrap;
+}
+.plan-time svg{ width:13px; height:13px; }
+.plan-time--flex{ color:var(--muted); background:var(--bg-soft); font-style:italic; font-weight:600; }
+.plan-group{ font-size:.92rem; color:var(--ink); font-weight:600; }
 
 /* --- Faustball ------------------------------------------------------ */
 .team{ }
