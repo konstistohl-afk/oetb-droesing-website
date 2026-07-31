@@ -188,6 +188,11 @@
       return '<p class="lead">' + esc((D.ueberUns || {}).text) + "</p>";
     },
 
+    // Kleine Pillen im Titelbild – automatisch aus allen Angeboten (immer vollständig, im Panel editierbar)
+    heroBadges: function () {
+      return (D.angebote || []).map(function (a) { return "<span>" + esc(a.titel) + "</span>"; }).join("");
+    },
+
     // Optionen für das Anmeldeformular – automatisch aus den Angeboten
     angebotOptions: function () {
       var opts = '<option value="">Bitte wählen …</option>';
