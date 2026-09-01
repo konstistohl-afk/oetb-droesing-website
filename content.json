@@ -3,7 +3,7 @@
     "name": "ÖTB Turnverein Drösing",
     "kurzname": "ÖTB-TV Drösing",
     "ort": "2265 Drösing",
-    "email": "oetb-droesing@gmail.com",
+    "email": "oetbdroesing@gmail.com",
     "formName": "ÖTB Drösing Website",
     "slogan": "Bewegung, die verbindet",
     "unterzeile": "Turnen & Faustball für alle Generationen – mitten im Weinviertel.",
@@ -481,7 +481,7 @@
     ]
   },
   "kontakt": {
-    "email": "oetb-droesing@gmail.com",
+    "email": "oetbdroesing@gmail.com",
     "ort": "2265 Drösing, Österreich",
     "text": "Fragen zu unseren Angeboten, zur Mitgliedschaft oder zum Faustball? Schreib uns – wir melden uns gerne zurück.",
     "hinweis": "Mit dem Absenden schickst Du uns Deine Nachricht direkt zu. Wir antworten so bald wie möglich."
@@ -490,7 +490,7 @@
     "name": "ÖTB-TV Drösing",
     "adresse": "2265 Drösing, Österreich",
     "zvr": "078185050",
-    "email": "oetb-droesing@gmail.com",
+    "email": "oetbdroesing@gmail.com",
     "website": "www.oetbdroesing.com",
     "vertretung": "Thomas Kvasnicka (vertretungsberechtigter Obmann)",
     "verantwortlich": "Konstantin Stohl (inhaltlich verantwortlich, § 25 MedienG)",
@@ -500,7 +500,7 @@
   },
   "datenschutz": {
     "stand": "Juli 2026",
-    "verantwortlich": "ÖTB-TV Drösing, 2265 Drösing, E-Mail: oetb-droesing@gmail.com",
+    "verantwortlich": "ÖTB-TV Drösing, 2265 Drösing, E-Mail: oetbdroesing@gmail.com",
     "weitergabe": "Im Rahmen der Mitgliedschaft und des Wettkampfbetriebs werden die dafür notwendigen Daten an die zuständigen Dachverbände (ÖTB, NÖ Faustballverband, ASVÖ) übermittelt. Eine darüber hinausgehende Weitergabe an Dritte erfolgt nicht."
   }
 }
