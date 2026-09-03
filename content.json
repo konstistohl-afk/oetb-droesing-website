@@ -23,29 +23,27 @@
     "leitung": [
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Obmann",
-        "tel": "",
-        "email": ""
+        "rolle": "Obmann"
       },
       {
         "name": "Karl Gahm",
         "rolle": "Zeugwart & Obmann-Stellvertreter",
-        "bild": "assets/images/796d147e-39f7-46cd-8ee4-5568faad0bc6.jpeg",
-        "tel": "",
-        "email": ""
+        "tel": "0681 10355104",
+        "email": "karl.gahm@aon.at",
+        "bild": "assets/images/796d147e-39f7-46cd-8ee4-5568faad0bc6.jpeg"
       },
       {
         "name": "Erich Turetschek",
         "rolle": "2. Obmann-Stellvertreter",
-        "tel": "",
-        "email": ""
+        "tel": "0664801095940",
+        "email": "erich.turetschek@icloud.com"
       },
       {
         "name": "Andreas Huysza",
         "rolle": "Leitung Faustball",
-        "bild": "assets/images/02d8f44c-35b6-401d-925e-225bff8635dc.jpeg",
-        "tel": "",
-        "email": ""
+        "tel": "06606728768",
+        "email": "a.huysza@gmx.at",
+        "bild": "assets/images/02d8f44c-35b6-401d-925e-225bff8635dc.jpeg"
       }
     ],
     "trainer": [
