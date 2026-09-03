@@ -45,12 +45,13 @@
       "Fabian Stohl"
     ],
     "vorturner": [
-      "Verena Turetschek-Hies",
+      "Verena Turetschek",
       "Katrin Bek",
       "Erich Turetschek",
       "Stefan Koller",
       "Christa Schweinhammer",
-      "Brigitte Kaltenbrunner"
+      "Brigitte Kaltenbrunner",
+      "Sabrina Pachofszky"
     ],
     "anlagen": [
       {
@@ -92,7 +93,9 @@
       "zeit": "16:00–17:00",
       "leitungen": [
         {
-          "name": "Verena Turetschek-Hies"
+          "name": "Verena Turetschek",
+          "tel": "06605580604",
+          "email": "verenaturetschekhiehs@gmail.com"
         }
       ],
       "text": "Spielerische Grundlagen: sicheres Bewegen, Laufen, Hüpfen, Rollen, Klettern und viele Gruppenspiele."
@@ -105,7 +108,9 @@
       "zeit": "16:00–18:30",
       "leitungen": [
         {
-          "name": "Erich Turetschek"
+          "name": "Erich Turetschek",
+          "tel": "0664801095940",
+          "email": "erich.turetschek@icloud.com"
         }
       ],
       "text": "Einführung in die klassischen Turndisziplinen und grundlegende Gerätefertigkeiten."
@@ -118,7 +123,9 @@
       "zeit": "17:00–19:00",
       "leitungen": [
         {
-          "name": "Stefan Koller"
+          "name": "Stefan Koller",
+          "tel": "06644236541",
+          "email": "stefankoller84@gmx.at"
         }
       ],
       "text": "Fortgeschrittenes Gerätturnen: Boden, Barren, Reck, Sprung und Ringe."
@@ -134,7 +141,9 @@
           "name": "Eveline Huysza"
         },
         {
-          "name": "Christa Schweinhammer"
+          "name": "Christa Schweinhammer",
+          "tel": "069912509801",
+          "email": "christa2603@gmail.com"
         }
       ],
       "text": "Ein vielseitiges Bewegungsangebot mit Laufen, Spielen, Gymnastik, Konditionstraining, Tanz, Yoga und Pilates."
@@ -147,7 +156,9 @@
       "zeit": "18:30–19:30",
       "leitungen": [
         {
-          "name": "Christa Schweinhammer"
+          "name": "Christa Schweinhammer",
+          "tel": "069912509801",
+          "email": "christa2603@gmail.com"
         }
       ],
       "text": "Herz-Kreislauf-Training mit Fokus auf Bein- und Gesäßmuskulatur – rhythmische Bewegung zur Musik."
@@ -160,7 +171,9 @@
       "zeit": "17:15–18:30",
       "leitungen": [
         {
-          "name": "Brigitte Kaltenbrunner"
+          "name": "Brigitte Kaltenbrunner",
+          "tel": "06766513033",
+          "email": "b.kaltenbrunner1@gmx.at"
         }
       ],
       "text": "Tanzen in der Gruppe zu Country- und Pop-Rhythmen – ganz ohne Tanzpartner."
@@ -173,7 +186,9 @@
       "zeit": "19:00–20:30",
       "leitungen": [
         {
-          "name": "Erich Turetschek"
+          "name": "Erich Turetschek",
+          "tel": "0664801095940",
+          "email": "erich.turetschek@icloud.com"
         }
       ],
       "text": "Vielseitiges Turn- und Fitnessangebot für Erwachsene – für Beweglichkeit, Kraft und Gemeinschaft."
@@ -187,11 +202,13 @@
         {
           "name": "Andreas Huysza",
           "rolle": "Leitung",
-          "email": "andreas.huysza@gmx.at"
+          "tel": "06606728768",
+          "email": "a.huysza@gmx.at"
         },
         {
           "name": "Fabian Stohl",
           "rolle": "Nachwuchsleiter",
+          "tel": "067761479830",
           "email": "fabian.stohl29@gmail.com"
         }
       ],
@@ -380,12 +397,13 @@
       {
         "name": "Andreas Huysza",
         "rolle": "Leitung Faustball & Trainer",
-        "email": "andreas.huysza@gmx.at"
+        "tel": "06606728768",
+        "email": "a.huysza@gmx.at"
       },
       {
         "name": "Fabian Stohl",
         "rolle": "Leitung Nachwuchs & Nachwuchstrainer",
-        "tel": "89384940",
+        "tel": "067761479830",
         "email": "fabian.stohl29@gmail.com"
       },
       {
