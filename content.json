@@ -23,21 +23,29 @@
     "leitung": [
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Obmann"
+        "rolle": "Obmann",
+        "tel": "",
+        "email": ""
       },
       {
         "name": "Karl Gahm",
         "rolle": "Zeugwart & Obmann-Stellvertreter",
-        "bild": "assets/images/796d147e-39f7-46cd-8ee4-5568faad0bc6.jpeg"
+        "bild": "assets/images/796d147e-39f7-46cd-8ee4-5568faad0bc6.jpeg",
+        "tel": "",
+        "email": ""
       },
       {
         "name": "Erich Turetschek",
-        "rolle": "2. Obmann-Stellvertreter"
+        "rolle": "2. Obmann-Stellvertreter",
+        "tel": "",
+        "email": ""
       },
       {
         "name": "Andreas Huysza",
         "rolle": "Leitung Faustball",
-        "bild": "assets/images/02d8f44c-35b6-401d-925e-225bff8635dc.jpeg"
+        "bild": "assets/images/02d8f44c-35b6-401d-925e-225bff8635dc.jpeg",
+        "tel": "",
+        "email": ""
       }
     ],
     "trainer": [

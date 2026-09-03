@@ -202,8 +202,11 @@
 
     leitung: function () {
       return '<div class="grid grid-3">' + ((D.ueberUns || {}).leitung || []).map(function (p) {
+        var k = kontaktLinks(p);
         return '<article class="card leader reveal">' + avatar(p.name, p.bild, "avatar-lg") +
-          "<h3>" + esc(p.name) + '</h3><div class="rolle">' + esc(p.rolle) + "</div></article>";
+          "<h3>" + esc(p.name) + '</h3><div class="rolle">' + esc(p.rolle) + "</div>" +
+          (k ? '<div class="leiter-kontakt" style="justify-content:center;margin-top:.7rem">' + k + "</div>" : "") +
+          "</article>";
       }).join("") + "</div>";
     },
 

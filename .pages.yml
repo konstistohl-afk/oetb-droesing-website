@@ -46,6 +46,8 @@ content:
             fields:
               - { name: name, label: Name, type: string }
               - { name: rolle, label: Funktion, type: string }
+              - { name: tel, label: Telefon, type: string }
+              - { name: email, label: E-Mail, type: string }
               - { name: bild, label: Foto (optional), type: image }
           - { name: trainer, label: Faustball-Trainer, type: string, list: true }
           - { name: vorturner, label: Vorturner-Team, type: string, list: true }
