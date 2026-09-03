@@ -27,7 +27,8 @@
       },
       {
         "name": "Karl Gahm",
-        "rolle": "Zeugwart & Obmann-Stellvertreter"
+        "rolle": "Zeugwart & Obmann-Stellvertreter",
+        "bild": "assets/images/796d147e-39f7-46cd-8ee4-5568faad0bc6.jpeg"
       },
       {
         "name": "Erich Turetschek",
@@ -35,7 +36,8 @@
       },
       {
         "name": "Andreas Huysza",
-        "rolle": "Leitung Faustball"
+        "rolle": "Leitung Faustball",
+        "bild": "assets/images/02d8f44c-35b6-401d-925e-225bff8635dc.jpeg"
       }
     ],
     "trainer": [
@@ -398,13 +400,15 @@
         "name": "Andreas Huysza",
         "rolle": "Leitung Faustball & Trainer",
         "tel": "06606728768",
-        "email": "a.huysza@gmx.at"
+        "email": "a.huysza@gmx.at",
+        "bild": "assets/images/d18c5e1c-e566-4c5a-8069-fcddc3b21bdc.jpeg"
       },
       {
         "name": "Fabian Stohl",
         "rolle": "Leitung Nachwuchs & Nachwuchstrainer",
         "tel": "067761479830",
-        "email": "fabian.stohl29@gmail.com"
+        "email": "fabian.stohl29@gmail.com",
+        "bild": "assets/images/c27e4c90-3557-48b7-a2c1-35de91c264c8.jpeg"
       },
       {
         "name": "Thomas Kvasnicka",
@@ -412,7 +416,8 @@
       },
       {
         "name": "Yara van Sint Maartensdijk",
-        "rolle": "Nachwuchstrainerin"
+        "rolle": "Nachwuchstrainerin",
+        "bild": "assets/images/5a71f2d2-dc8e-46b9-ae86-bd935c86a481.jpeg"
       }
     ],
     "sponsoren": [
