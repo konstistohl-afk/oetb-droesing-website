@@ -23,7 +23,10 @@
     "leitung": [
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Obmann"
+        "rolle": "Obmann",
+        "tel": "06764838448",
+        "email": "thomas.kvasnicka@gmx.at",
+        "bild": "assets/images/762c179a-944c-4b8a-90a3-ecb02df1909b.jpeg"
       },
       {
         "name": "Karl Gahm",
@@ -418,7 +421,10 @@
       },
       {
         "name": "Thomas Kvasnicka",
-        "rolle": "Nachwuchstrainer"
+        "rolle": "Nachwuchstrainer",
+        "tel": "06764838448",
+        "email": "thomas.kvasnicka@gmx.at",
+        "bild": "assets/images/762c179a-944c-4b8a-90a3-ecb02df1909b-1.jpeg"
       },
       {
         "name": "Yara van Sint Maartensdijk",
