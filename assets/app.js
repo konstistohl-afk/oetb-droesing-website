@@ -174,8 +174,7 @@
             '<li><a href="' + hrefFor("datenschutz") + '">Datenschutz</a></li>' +
           "</ul></div>" +
         "</div>" +
-        '<div class="footer-bottom"><span>© ' + new Date().getFullYear() + " " + esc(v.name || "") + "</span>" +
-          "<span>Prototyp · " + esc(v.ort || "") + "</span></div>" +
+        '<div class="footer-bottom"><span>© ' + new Date().getFullYear() + " " + esc(v.name || "") + "</span></div>" +
       "</div></footer>";
   }
 

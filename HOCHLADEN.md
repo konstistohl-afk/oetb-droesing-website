@@ -1,104 +1,100 @@
-# Website hochladen & mit der Domain oetbdroesing.com verbinden
+# Domain oetbdroesing.com mit der Website verbinden
 
-Diese Anleitung zeigt Schritt für Schritt, wie die neue Website online geht – **unter
-Deiner bestehenden Adresse `oetbdroesing.com`**. Kosten: **0 €** (kostenloses Hosting
-inkl. HTTPS-Verschlüsselung).
+Die Website ist bereits **live und fertig eingerichtet** über GitHub Pages:
+👉 **https://konstistohl-afk.github.io/oetb-droesing-website/**
 
-Es gibt zwei Teile:
-1. **Website online stellen** (auf einen Hoster laden)
-2. **Deine Domain damit verbinden** (`oetbdroesing.com` auf die neue Seite zeigen lassen)
+Diese Anleitung zeigt den **letzten verbleibenden Schritt**: eure Domain
+`oetbdroesing.com` auf diese Adresse zeigen lassen, damit die Website unter der
+gewohnten Adresse erreichbar ist. Kosten dafür: **0 €** (HTTPS/Schloss-Symbol ist bei
+GitHub Pages automatisch dabei, keine weiteren Gebühren).
 
-> **Wichtig vorab:** Lass Deine **aktuelle Wix-Seite online**, bis die neue Seite fertig
-> verbunden ist. So ist die Website nie „weg“. Erst ganz am Schluss umschalten.
-
----
-
-## Teil 1 – Website online stellen (mit Netlify, gratis)
-
-1. Geh auf **https://www.netlify.com** und erstelle ein **kostenloses Konto**
-   (z. B. mit Deiner E-Mail oder dem Google-Login).
-2. Klick auf **„Add new site“ → „Deploy manually“**.
-3. Zieh den **ganzen Ordner** `Website` (also `/Users/konsti/Documents/Claude/Website`)
-   mit der Maus in das Feld und lass los.
-4. Nach ein paar Sekunden ist die Seite online – Du bekommst eine Test-Adresse wie
-   `https://oetb-droesing-xy12.netlify.app`. Öffne sie und prüfe, ob alles passt.
-5. **Namen anpassen (optional):** Unter **Site configuration → Change site name** kannst
-   Du z. B. `oetb-droesing` wählen → `https://oetb-droesing.netlify.app`.
-
-✅ Damit ist die Website online. Fehlt nur noch Deine echte Domain.
+> **Wichtig vorab:** Die **alte Wix-Seite bleibt bis zum Schluss online**. Erst wenn die
+> DNS-Einträge unten gesetzt sind, zeigt die Domain auf die neue Seite um. Bis dahin ist
+> nichts „weg".
 
 ---
 
-## Teil 2 – Domain `oetbdroesing.com` verbinden
+## Ausgangslage (geprüft)
+- **Registrar** (wo die Domain „gehört" und jährlich verlängert wird): **Network
+  Solutions** – Ablaufdatum 18.11.2026, Kosten **21,35 €/Jahr**.
+- **DNS-Verwaltung** (wo eingestellt wird, wohin die Domain zeigt): **Wix** – ihr habt
+  dort Zugang über das Konto, unter dem auch die aktuelle (alte) Website liegt.
 
-### Schritt A: Domain in Netlify hinterlegen
-1. In Netlify: **Domain management → Add a domain**.
-2. `oetbdroesing.com` eingeben und bestätigen.
-3. Netlify zeigt Dir jetzt an, **welche Einträge Du setzen musst**. Diese Werte trägst
-   Du im nächsten Schritt bei Deinem Domain-Anbieter ein. (Genau die von Netlify
-   angezeigten Werte verwenden – die folgenden sind nur Beispiele.)
+➡️ Das bedeutet: Die DNS-Einträge werden **im Wix-Login** geändert. Network Solutions
+muss dafür **nicht** angefasst werden.
 
-### Schritt B: Beim Domain-Anbieter die Einträge setzen
-Zuerst musst Du wissen, **wo `oetbdroesing.com` verwaltet wird**. Zwei häufige Fälle:
+---
 
-**Fall 1 – Die Domain gehört zu Wix:**
-- Melde Dich bei **Wix** an → **Domains**.
-- Dort kannst Du die Domain von der alten Wix-Seite lösen und die DNS-Einträge auf
-  Netlify zeigen lassen (siehe Werte unten).
-- Alternativ: die Domain zu einem eigenen Anbieter „transferieren“ – frag im Zweifel
-  den Wix-Support, das ist der sauberste Weg.
+## Schritt 1 – GitHub die Domain zuweisen
+1. Im Repository **`oetb-droesing-website`** auf GitHub: **Settings → Pages**.
+2. Unter **„Custom domain"** eintragen: `oetbdroesing.com` → **Save**.
+   *(GitHub legt dabei automatisch eine Datei `CNAME` im Repo an – normal, nichts weiter
+   zu tun.)*
+3. Es erscheint zunächst „DNS check unsuccessful" – das ist normal, solange Schritt 2
+   noch nicht gemacht ist.
 
-**Fall 2 – Die Domain ist bei einem eigenen Anbieter** (z. B. World4You, united-domains,
-GoDaddy, Namecheap …):
-- Dort einloggen → **DNS-Einstellungen / DNS-Verwaltung** der Domain öffnen.
+## Schritt 2 – Bei Wix die DNS-Einträge setzen
+1. Bei **wix.com** einloggen → **Domains** → `oetbdroesing.com` auswählen.
+2. Im „…"-Menü neben der Domain auf **„Manage DNS records"** klicken.
+3. **A-Einträge** für die nackte Domain (Host `@` bzw. leer) – bestehenden A-Eintrag
+   ersetzen durch genau diese 4 Adressen:
+   ```
+   185.199.108.153
+   185.199.109.153
+   185.199.110.153
+   185.199.111.153
+   ```
+4. **CNAME-Eintrag** für `www`:
+   ```
+   Host: www
+   Ziel: konstistohl-afk.github.io
+   ```
+5. Speichern.
 
-In **beiden** Fällen trägst Du die von Netlify genannten Einträge ein – typischerweise:
+## Schritt 3 – Warten & HTTPS aktivieren
+- DNS-Änderungen brauchen **einige Minuten bis zu 24–48 Stunden**.
+- Danach in GitHub unter **Settings → Pages** nachsehen: Es sollte
+  **„DNS check successful"** stehen.
+- Dann erscheint das Kästchen **„Enforce HTTPS"** – anhaken. Das Schloss-Symbol wird
+  automatisch und kostenlos aktiviert (kann nach dem DNS-Check noch etwas dauern).
 
-| Typ   | Name / Host | Wert (Beispiel – Netlify zeigt Dir den echten) |
-|-------|-------------|------------------------------------------------|
-| A     | `@`         | `75.2.60.5`                                    |
-| CNAME | `www`       | `oetb-droesing.netlify.app`                    |
+---
 
-> Bequemer geht es, wenn Netlify die komplette DNS-Verwaltung übernimmt: Dann stellst Du
-> beim Anbieter nur die **Nameserver** auf die von Netlify angezeigten um (z. B.
-> `dns1.p0X.nsone.net`). Netlify richtet den Rest automatisch ein.
+## Danach: Wix-Website-Abo kündigen (Domain bleibt)
+Domain-Registrierung und Website-Hosting sind bei Wix **getrennte Kostenpunkte**.
 
-### Schritt C: Warten & HTTPS
-- DNS-Änderungen brauchen **einige Minuten bis zu 24–48 Stunden**, bis sie überall
-  greifen. Das ist normal.
-- Das **Schloss-Symbol (HTTPS)** aktiviert Netlify danach **automatisch und gratis** –
-  nichts weiter zu tun.
+1. Prüfen unter **Account Settings → Premium Subscriptions / Billing History**, was
+   genau als „Website-Plan" berechnet wird (getrennt von der Domain).
+2. **Erst kündigen, wenn Schritt 1–3 sicher funktionieren** (also `oetbdroesing.com`
+   erfolgreich die neue Seite zeigt) – zur Sicherheit.
+3. Gekündigt wird nur der **Website-/Hosting-Plan**. Die **Domain bleibt bei Wix
+   registriert** (21,35 €/Jahr, läuft separat weiter) – das ist die einzige laufende
+   Kosten, die übrig bleibt.
+
+> Ein vollständiger Umzug der Domain zu einem anderen Registrar („Transfer away from
+> Wix") ist **nicht nötig** – der spart nur ca. 10 €/Jahr, dauert aber 5–7 Tage und
+> lohnt den Aufwand nicht. Bei Wix bleiben ist der einfachere Weg.
 
 ---
 
 ## ⚠️ Wichtige Hinweise
-
-- **Wix erst danach kündigen:** Falls die Domain über Wix läuft, kündige das Wix-Abo
-  **nicht**, bevor die Domain sicher umgezogen bzw. verbunden ist – sonst könntest Du die
-  Domain verlieren. Im Zweifel Wix-Support fragen.
-- **E-Mail beachten:** Falls es E-Mail-Adressen mit `@oetbdroesing.com` gibt, beim
-  Umstellen der Nameserver aufpassen, dass die E-Mail-Einträge (MX) mitübernommen werden.
-  (Ihr verwendet `oetbdroesing@gmail.com` → vermutlich kein Problem, aber sicherheitshalber
-  prüfen.)
-- **Kein Risiko:** Solange Du die DNS erst am Schluss umstellst, bleibt die alte Seite
-  bis dahin normal erreichbar.
+- **E-Mail:** Ihr nutzt `oetbdroesing@gmail.com` (kein `@oetbdroesing.com`) – daher
+  vermutlich keine E-Mail-Einträge (MX) zu beachten. Falls doch irgendwo eine
+  `@oetbdroesing.com`-Adresse existiert, vorher bei Wix die MX-Einträge notieren.
+- **Kein Risiko:** Solange die DNS-Einträge nicht geändert sind, bleibt die alte Seite
+  normal erreichbar.
 
 ---
 
-## Später Änderungen veröffentlichen
-Wenn wir am Inhalt etwas ändern (`content.json`):
-1. In Netlify auf **Deploys** gehen.
-2. Den aktualisierten Ordner `Website` erneut ins Feld ziehen.
-3. Fertig – die Seite ist sofort aktuell, die Domain bleibt gleich.
+## Änderungen künftig veröffentlichen
+Der Code liegt im GitHub-Repo **`oetb-droesing-website`**, lokal gespiegelt unter
+`/Users/konsti/Documents/GitHub/oetb-droesing-website` (geklont mit **GitHub Desktop**).
 
----
+- **Inhalte** (Texte, Zeiten, Preise, Fotos, Sponsoren): bequem über das visuelle Panel
+  **app.pagescms.org** – Änderung, „Save", nach ~1 Minute live.
+- **Größere/technische Änderungen** (Layout, neue Seiten): werden vorbereitet und landen
+  im GitHub-Ordner; in **GitHub Desktop** dann nur noch **„Commit to main"** →
+  **„Push origin"** – ebenfalls nach ~1 Minute live.
 
-## Alternative Hoster (falls gewünscht)
-Funktionieren nach demselben Prinzip, ebenfalls gratis inkl. HTTPS:
-- **Cloudflare Pages** (cloudflare.com) – sehr schnell, Cloudflare kann auch die Domain
-  verwalten.
-- **GitHub Pages** – gut, wenn die Dateien ohnehin auf GitHub liegen.
-
-Wenn Du möchtest, begleite ich Dich beim Hochladen Schritt für Schritt – sag mir einfach,
-**wo die Domain `oetbdroesing.com` aktuell verwaltet wird** (bei Wix oder bei einem
-anderen Anbieter), dann gebe ich Dir die exakt passenden Klicks.
+Die Domain bleibt bei alldem unverändert – sie zeigt dauerhaft auf dieselbe
+GitHub-Pages-Adresse.

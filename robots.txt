@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oetbdroesing.com/sitemap.xml
